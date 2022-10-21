@@ -2,6 +2,7 @@ import React from 'react'
 import {useRouter} from 'next/router'
 import Button from 'react-bootstrap/Button';
 import styles from "./style.module.css"
+import { Link } from 'next/router';
 
 
 const Nav = ({ toplinks }) => {
@@ -73,30 +74,30 @@ var pageName = asPath.replace('/', "")
             <ul className="navbar-nav mb-2 mb-lg-0">
 
               <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="/home">Home</a>
+                <Link class="nav-link" aria-current="page" href="/home">Home</Link>
               </li>
           
               <li className={'nav-item dropdown'}>
-                  <a className={'nav-link dropdown-toggle'} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <Link className={'nav-link dropdown-toggle'} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     About
-                  </a>
+                    </Link>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="/about">About Vikas Mantra</a></li>
+                    <li><Link className="dropdown-item" href="/about">About Vikas Mantra</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="/about/vision-and-philosophy">Our Vision & Philosophy</a></li>
+                    <li><Link className="dropdown-item" href="/about/vision-and-philosophy">Our Vision & Philosophy</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/about/message-from-chairman">Chairman’s Message</a></li>
+                    <li><Link class="dropdown-item" href="/about/message-from-chairman">Chairman’s Message</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/about/message-from-principal">Principal’s Message</a></li>
+                    <li><Link class="dropdown-item" href="/about/message-from-principal">Principal’s Message</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/about/our-team">Our Team</a></li>
+                    <li><Link class="dropdown-item" href="/about/our-team">Our Team</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/about/blog">Blog</a></li>
+                    <li><LinK class="dropdown-item" href="/about/blog">Blog</LinK></li>
                   </ul>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/admissions">Admissions</a>
+                <Link class="nav-link" href="/admissions">Admissions</Link>
               </li>
 
               <li className={'nav-item dropdown'}>
@@ -104,65 +105,65 @@ var pageName = asPath.replace('/', "")
                     Campus
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="/campus/classrooms">Classrooms</a></li>
+                    <li><Link className="dropdown-item" href="/campus/classrooms">Classrooms</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="/campus/facilities-and-Infrastructure">Facilities and Infrastructure</a></li>
+                    <li><Link className="dropdown-item" href="/campus/facilities-and-Infrastructure">Facilities and Infrastructure</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="/campus/laboratory">Laboratories</a></li>
+                    <li><Link className="dropdown-item" href="/campus/laboratory">Laboratories</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/campus/speciality-room">Speciality Rooms</a></li>
+                    <li><Link class="dropdown-item" href="/campus/speciality-room">Speciality Rooms</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/campus/library">Library</a></li>
+                    <li><Link class="dropdown-item" href="/campus/library">Library</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/campus/technology">Technology</a></li>
+                    <li><Link class="dropdown-item" href="/campus/technology">Technology</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/campus/security">Security</a></li>
+                    <li><Link class="dropdown-item" href="/campus/security">Security</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/campus/healthcare">Healthcare</a></li>
+                    <li><Link class="dropdown-item" href="/campus/healthcare">Healthcare</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/campus/transportation">Transportation</a></li>
+                    <li><Link class="dropdown-item" href="/campus/transportation">Transportation</Link></li>
                   </ul>
               </li>
 
               <li className={'nav-item dropdown'}>
-                  <a className={'nav-link dropdown-toggle'} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <Link className={'nav-link dropdown-toggle'} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                    Learning
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="/learning">Why VIKAS MANTRA PUBLIC SCHOOL</a></li>
+                    <li><Link className="dropdown-item" href="/learning">Why VIKAS MANTRA PUBLIC SCHOOL</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="/learning/curriculum">Curriculum</a></li>
+                    <li><Link className="dropdown-item" href="/learning/curriculum">Curriculum</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Pre-Primary Years</a></li>
+                    <li><Link class="dropdown-item" href="#">Pre-Primary Years</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Curriculum Framework</a></li>
+                    <li><Link class="dropdown-item" href="#">Curriculum Framework</Link></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="/learning/online-classes">Online Classes</a></li>
+                    <li><Link class="dropdown-item" href="/learning/online-classes">Online Classes</Link></li>
                   </ul>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/enquiry-form">Enquiry Form</a>
+                <Link class="nav-link" href="/enquiry-form">Enquiry Form</Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/admissions">Admissions</a>
+                <Link class="nav-link" href="/admissions">Admissions</Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/mandatory-public-disclosures">Mandatory Public Disclosures</a>
+                <Link class="nav-link" href="/mandatory-public-disclosures">Mandatory Public Disclosures</Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/events">Events</a>
+                <Link class="nav-link" href="/events">Events</Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact Us</a>
+                <Link class="nav-link" href="/contact">Contact Us</Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/careers">Career</a>
+                <Link class="nav-link" href="/careers">Career</Link>
               </li>
 
             </ul>

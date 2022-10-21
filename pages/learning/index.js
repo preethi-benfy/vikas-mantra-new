@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import styles from "./style.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
-import Head from 'next/head';
+import { Link } from 'next/router';
 
 function Learning() {
 
@@ -158,47 +158,47 @@ function Learning() {
 
                         <ul id='progress'>
 
-                            <a href='#holistic-approach' ><li className={'node' + ' ' + 'green'}><p> Holistic Approach</p></li></a>
+                            <Link href='#holistic-approach' ><li className={'node' + ' ' + 'green'}><p> Holistic Approach</p></li></Link>
 
                             <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                            <a href='#'><li className={'node' + ' ' + 'grey'}><p>Global Outlook, Local Application</p></li></a>
+                            <Link href='#'><li className={'node' + ' ' + 'grey'}><p>Global Outlook, Local Application</p></li></Link>
 
                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Recognizing That Every Child is Unique</p></li></a>
+                              <Link href='#'><li className={'node' + ' ' + 'grey'}><p>Recognizing That Every Child is Unique</p></li></Link>
 
                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>21st Century Ready Infrastructure</p></li></a>
+                              <Link href='#'><li className={'node' + ' ' + 'grey'}><p>21st Century Ready Infrastructure</p></li></Link>
 
                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Talented Faculty</p></li></a>
+                              <Link href='#'><li className={'node' + ' ' + 'grey'}><p>Talented Faculty</p></li></Link>
 
                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Rich Curriculum</p></li></a>
+                              <Link href='#'><li className={'node' + ' ' + 'grey'}><p>Rich Curriculum</p></li></Link>
 
                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Window to the World</p></li></a>
+                              <Link href='#'><li className={'node' + ' ' + 'grey'}><p>Window to the World</p></li></Link>
 
                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Technologically Wired for a Wireless World</p></li></a>
+                              <Link href='#'><li className={'node' + ' ' + 'grey'}><p>Technologically Wired for a Wireless World</p></li></Link>
 
                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>A Smorgasbord of Co-Curricular Choices</p></li></a>
+                              <Link href='#'><li className={'node' + ' ' + 'grey'}><p>A Smorgasbord of Co-Curricular Choices</p></li></Link>
 
                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Putting Community Engagement at the Forefront</p></li></a>
+                              <Link href='#'><li className={'node' + ' ' + 'grey'}><p>Putting Community Engagement at the Forefront</p></li></Link>
 
                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Preparing for Life Beyond School</p></li></a>
+                              <Link href='#'><li className={'node' + ' ' + 'grey'}><p>Preparing for Life Beyond School</p></li></Link>
 
 
                             </ul>
