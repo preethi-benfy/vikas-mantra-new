@@ -23,7 +23,7 @@ const Library = () => {
                     <div className='row py-5'>
 
                         <h2 className={styles.headingPdng}>Library</h2>
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -68,9 +68,9 @@ const Library = () => {
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/library.png' className={styles.libraryImg} />
+                            <img src='/assets/campus/library.png' alt ="image" className={styles.libraryImg} />
 
-                            <img src='/assets/vectors/Vector5.png' className={styles.vectorImg5} />
+                            <img src='/assets/vectors/Vector5.png' alt ="image" className={styles.vectorImg5} />
 
                         </div>
 
@@ -108,7 +108,7 @@ const Library = () => {
 
                             </ul>
 
-                            <img src='/assets/vectors/Vector10.png' className={styles.vectorImg10} />
+                            <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.vectorImg10} />
 
                         </div>
 

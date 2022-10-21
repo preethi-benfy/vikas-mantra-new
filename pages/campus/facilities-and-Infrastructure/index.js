@@ -23,7 +23,7 @@ const FacilitiesAndInfrastructure = () => {
                     <div className='row py-5'>
 
                         <h2 className={styles.headingPdng}>Facilities and Infrastructure</h2>
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -39,7 +39,7 @@ const FacilitiesAndInfrastructure = () => {
 
                         <div className='col-md-5 position-relative'>
 
-                            <img src='/assets/vectors/Vector5.png' className={styles.vectorImg5}/>
+                            <img src='/assets/vectors/Vector5.png' alt ="image" className={styles.vectorImg5}/>
 
                             <h3>VIKAS MANTRA PUBLIC SCHOOL
                                 Campus is located in Mahindra
@@ -62,7 +62,7 @@ const FacilitiesAndInfrastructure = () => {
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/school-building3.png' className={styles.schlBuildingImg} />
+                            <img src='/assets/campus/school-building3.png' alt ="image" className={styles.schlBuildingImg} />
 
                         </div>
 
@@ -82,7 +82,7 @@ const FacilitiesAndInfrastructure = () => {
                                 environment that enhances experiential learning.
                             </p>
 
-                            <img src='/assets/vectors/Vector10.png' className={styles.vectorImg10}/>
+                            <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.vectorImg10}/>
 
                         </div>
 

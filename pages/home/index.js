@@ -56,7 +56,7 @@ function Home() {
             </div>
 
             <div className='col-md-6'>
-              <img src='/assets/home-abt-vmps.png' className='img-fluid' />
+              <img src='/assets/home-abt-vmps.png' alt ="image" className='img-fluid' />
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ function Home() {
 
           <div className={'row' + ' ' + 'pt60' + ' ' + styles.vkApproch}>
             <div className={'z1' + ' ' + 'col-md-3'}>
-              <img src='/assets/icons/holistic-approach.png'></img>
+              <img src='/assets/icons/holistic-approach.png' alt ="image"></img>
 
               <h4>Holistic Approach</h4>
 
@@ -89,7 +89,7 @@ function Home() {
             </div>
 
             <div className={'z1' + ' ' + 'col-md-3'}>
-              <img src='/assets/icons/holistic-approach.png'></img>
+              <img src='/assets/icons/holistic-approach.png' alt ="image"></img>
 
               <div className={styles.borderLeft}>
                 <h4>Global Outlook</h4>
@@ -103,7 +103,7 @@ function Home() {
             </div>
 
             <div className={'z1' + ' ' + 'col-md-3'}>
-              <img src='/assets/icons/holistic-approach.png'></img>
+              <img src='/assets/icons/holistic-approach.png' alt ="image"></img>
 
               <div className={styles.borderLeft}>
                 <h4>Talented Faculty</h4>
@@ -117,7 +117,7 @@ function Home() {
             </div>
 
             <div className={'z1' + ' ' + 'col-md-3'}>
-              <img src='/assets/icons/holistic-approach.png'></img>
+              <img src='/assets/icons/holistic-approach.png' alt ="image"></img>
 
               <div className={styles.borderLeft}>
                 <h4>Rich Curriculum</h4>
@@ -181,7 +181,7 @@ function Home() {
                       }
                     >
                       <img
-                        src='/assets/home-happy-face.png'
+                        src='/assets/home-happy-face.png' alt ="image"
                         class='img-fluid'
                       ></img>
                     </div>
@@ -223,7 +223,7 @@ function Home() {
                 <SplideSlide>
                   <div className={styles.testimonialcard}>
                     <div>
-                      <img src='/assets/rectangle.png' />
+                      <img src='/assets/rectangle.png' alt ="image" />
                     </div>
 
                     <div className={styles.testimonialcontent}>
@@ -244,7 +244,7 @@ function Home() {
                 <SplideSlide>
                   <div className={styles.testimonialcard}>
                     <div>
-                      <img src='/assets/rectangle.png' />
+                      <img src='/assets/rectangle.png' alt ="image" />
                     </div>
 
                     <div className={styles.testimonialcontent}>

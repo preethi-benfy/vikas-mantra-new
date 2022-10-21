@@ -2,7 +2,7 @@ import React from 'react'
 import {useRouter} from 'next/router'
 import Button from 'react-bootstrap/Button';
 import Image from 'next/image'
-import vmps from '../../public/assets/vmps-white-logo.png'
+import vmps from '../../public/assets/vmps-white-logo.png' 
 import vmpsColor from '../../public/assets/vmps-color.png'
 import styles from "./style.module.css"
 

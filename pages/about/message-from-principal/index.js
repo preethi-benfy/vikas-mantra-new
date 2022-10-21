@@ -28,7 +28,7 @@ const MessageFromPrincipal = () => {
                         <div className='col-md-6'>
 
                             <h2>Message from Our Principal</h2>
-                            <img src='/assets/vectors/Vector.png' className={styles.vectorImg} />
+                            <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg} />
 
                         </div>
 
@@ -47,7 +47,7 @@ const MessageFromPrincipal = () => {
 
                         <div className='col-md-6'>
 
-                            <img src='/assets/vectors/Vector1.png' className={styles.vectorImg1} />
+                            <img src='/assets/vectors/Vector1.png' alt ="image" className={styles.vectorImg1} />
 
                             <h3>Dear all,</h3>
 
@@ -87,9 +87,9 @@ const MessageFromPrincipal = () => {
 
                         <div className='col-md-6 position-relative'>
 
-                            <img src={'/assets/banners/principal.png'} className={styles.PrincipalImg} />
+                            <img src={'/assets/banners/principal.png' alt ="image"} className={styles.PrincipalImg} />
 
-                            <img src={'/assets/vectors/Vector2.png'} className={styles.vectorImg2} />
+                            <img src={'/assets/vectors/Vector2.png' alt ="image"} className={styles.vectorImg2} />
 
                         </div>
 

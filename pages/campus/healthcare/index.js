@@ -24,7 +24,7 @@ const Healthcare = () => {
 
                         <h2 className={styles.headingPdng}>Healthcare</h2>
 
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -40,7 +40,7 @@ const Healthcare = () => {
 
                         <div className='col-md-5 position-relative'>
 
-                            <img src='/assets/vectors/Vector12.png' className={styles.vectorImg12} />
+                            <img src='/assets/vectors/Vector12.png' alt ="image" className={styles.vectorImg12} />
 
                             <h3>Security at VIKAS MANTRA
                                 PUBLIC SCHOOL   </h3>
@@ -65,7 +65,7 @@ const Healthcare = () => {
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/healthcare.png' className={styles.securityImg} />
+                            <img src='/assets/campus/healthcare.png' alt ="image" className={styles.securityImg} />
 
                         </div>
 
@@ -86,7 +86,7 @@ const Healthcare = () => {
 
                                 </ul>
 
-                                <img src='/assets/vectors/Vector10.png' className={styles.vectorImg10} />
+                                <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.vectorImg10} />
 
                             </div>
 

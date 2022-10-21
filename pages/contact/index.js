@@ -23,7 +23,7 @@ const Contact = () => {
 
                         <h2 className={styles.headingPdng}>Contact</h2>
 
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -45,7 +45,7 @@ const Contact = () => {
                         <div className='col-md-7 position-relative'>
 
                             <img
-                                src='assets/campus/school-building3.png'
+                                src='assets/campus/school-building3.png' alt ="image"
                                 className={styles.schlBusImg}
                             />
 
@@ -59,9 +59,9 @@ const Contact = () => {
 
                             <div className='position-relative'>
 
-                                <img src='/assets/vectors/vector13.png' className={styles.vectorImg13} />
+                                <img src='/assets/vectors/vector13.png' alt ="image" className={styles.vectorImg13} />
 
-                                <img src='/assets/icons/mail.png' className={styles.iconsImg} />
+                                <img src='/assets/icons/mail.png' alt ="image" className={styles.iconsImg} />
 
                                 <h4 className='py-4'>Postal address</h4>
 
@@ -79,7 +79,7 @@ const Contact = () => {
 
                         <div className='col-md-4'>
 
-                            <img src='/assets/icons/call.png' className={styles.iconsImg} />
+                            <img src='/assets/icons/call.png' alt ="image" className={styles.iconsImg} />
 
                             <h4 className='py-4'>Phone & Email</h4>
 
@@ -95,7 +95,7 @@ const Contact = () => {
 
                         <div className='col-md-4 position-relative'>
 
-                            <img src='/assets/icons/time.png' className={styles.iconsImg} />
+                            <img src='/assets/icons/time.png' alt ="image" className={styles.iconsImg} />
 
                             <h4 className='py-4'>Office hours</h4>
 
@@ -109,7 +109,7 @@ const Contact = () => {
 
                             </div>
 
-                            <img src='/assets/vectors/vector10.png' className={styles.vectorImg10} />
+                            <img src='/assets/vectors/vector10.png' alt ="image" className={styles.vectorImg10} />
 
                         </div>
 

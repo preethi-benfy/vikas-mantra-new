@@ -28,7 +28,7 @@ const MessageFromChairMan = () => {
                         <div className='col-md-6'>
 
                             <h2>Message from Our Chairman</h2>
-                            <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                            <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                         </div>
 
@@ -47,7 +47,7 @@ const MessageFromChairMan = () => {
 
                         <div className='col-md-6'>
 
-                            <img src='/assets/vectors/Vector3.png' className={styles.vectorImg2} />
+                            <img src='/assets/vectors/Vector3.png' alt ="image" className={styles.vectorImg2} />
 
                             <h3>Dear stake holders,</h3>
 
@@ -95,9 +95,9 @@ const MessageFromChairMan = () => {
 
                         <div className='col-md-6 position-relative'>
 
-                            <img src={'/assets/banners/chairman.png'} className={styles.ChairmanImg} />
+                            <img src='/assets/banners/chairman.png' alt ="image" className={styles.ChairmanImg} />
 
-                            <img src={'/assets/vectors/Vector7.png'} className={styles.vectorImg7} />
+                            <img src='/assets/vectors/Vector7.png' alt ="image" className={styles.vectorImg7} />
 
                         </div>
 

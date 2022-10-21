@@ -24,7 +24,7 @@ const About = () => {
                     <div className='row py-5'>
 
                         <h2 className={styles.headingPdng}>About Us</h2>
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -40,8 +40,8 @@ const About = () => {
 
                         <div className='col-md-6 position-relative'>
 
-                            <img src='/assets/banners/school-building.png' className={styles.schoolBuildingImg} />
-                            <img src='/assets/vectors/Vector3.png' className={styles.vectorImg2} />
+                            <img src='/assets/banners/school-building.png' alt ="image"  className={styles.schoolBuildingImg} />
+                            <img src='/assets/vectors/Vector3.png' alt ="image"  className={styles.vectorImg2} />
 
                         </div>
 
@@ -66,7 +66,7 @@ const About = () => {
                                 </p>
 
                             </div>
-                            <img src='/assets/VMPS.png' className={styles.vmpsImg} />
+                            <img src='/assets/VMPS.png' alt ="image" className={styles.vmpsImg} />
 
                         </div>
 
@@ -126,7 +126,7 @@ const About = () => {
                                 needs and areas of interest.
                             </p>
 
-                            <img src='/assets/vectors/Vector4.png' className={styles.vectorImg4} />
+                            <img src='/assets/vectors/Vector4.png' alt ="image"  className={styles.vectorImg4} />
 
                         </div>
 
@@ -147,7 +147,7 @@ const About = () => {
 
                         <div className='col-md-12'>
 
-                            <img src='/assets/banners/staff-group-photo.png' className={styles.ResponsiveImage}/>
+                            <img src='/assets/banners/staff-group-photo.png' alt ="image" className={styles.ResponsiveImage}/>
 
                         </div>
 

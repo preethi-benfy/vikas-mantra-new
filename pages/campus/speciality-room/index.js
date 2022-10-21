@@ -23,7 +23,7 @@ const SpecialityRoom = () => {
                     <div className='row py-5'>
 
                         <h2 className={styles.headingPdng}>Speciality Rooms</h2>
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -39,7 +39,7 @@ const SpecialityRoom = () => {
 
                         <div className='col-md-5 position-relative'>
 
-                            <img src='/assets/vectors/Vector12.png' className={styles.vectorImg12} />
+                            <img src='/assets/vectors/Vector12.png' alt ="image" className={styles.vectorImg12} />
 
                             <h3>VIKAS MANTRA PUBLIC
                                 SCHOOL
@@ -57,7 +57,7 @@ const SpecialityRoom = () => {
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/classroom.png' className={styles.classroomImg} />
+                            <img src='/assets/campus/classroom.png' alt ="image" className={styles.classroomImg} />
 
                         </div>
 
@@ -128,7 +128,7 @@ const SpecialityRoom = () => {
 
                         <div className='col-md-3 position-relative'>
 
-                            <img src='/assets/vectors/Vector10.png' className={styles.vectorImg10} />
+                            <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.vectorImg10} />
 
                         </div>
 

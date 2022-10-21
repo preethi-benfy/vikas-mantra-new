@@ -25,7 +25,7 @@ const Blog = () => {
                     <div className={styles.blogRow1 + 'row py-5'}>
 
                         <h2>Blog</h2>
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -40,7 +40,7 @@ const Blog = () => {
                     <div className='row py-5 align-items-center '>
 
                         <div className='col-md-6'>
-                            <img src='/assets/vectors/Vector1.png' className={styles.vectorImg2} />
+                            <img src='/assets/vectors/Vector1.png' alt ="image" className={styles.vectorImg2} />
 
                             <h3>TEACHING ECO-FRIENDLY PRACTICES TO CHILDREN</h3>
 
@@ -59,7 +59,7 @@ const Blog = () => {
 
                         <div className='col-md-6 position-relative'>
 
-                            <img src={'/assets/blog1.png'} className={styles.Blog1Img} />
+                            <img src='/assets/blog1.png' alt ="image" className={styles.Blog1Img} />
 
                         </div>
 
@@ -69,7 +69,7 @@ const Blog = () => {
 
                         <div className='col-md-6 position-relative'>
 
-                            <img src={'/assets/blog2.png'} className={styles.Blog2Img} />
+                            <img src='/assets/blog2.png' alt ="image" className={styles.Blog2Img} />
 
                         </div>
 
@@ -86,7 +86,7 @@ const Blog = () => {
                                 and succeed. But the truth …</p>
 
                             <button className='btn outlineBtn'>Know More</button>
-                            <img src='/assets/vectors/Vector2.png' className={styles.vectorImg3} />
+                            <img src='/assets/vectors/Vector2.png' alt ="image" className={styles.vectorImg3} />
 
                         </div>
 

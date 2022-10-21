@@ -150,7 +150,7 @@ function Learning() {
 
                         <div className='imgUp'>
 
-                        <img src='/assets/school-building.png' className='img-fluid' />
+                        <img src='/assets/school-building.png' alt ="image" className='img-fluid' />
 
                         </div>
 

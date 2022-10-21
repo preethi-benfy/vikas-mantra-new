@@ -6,17 +6,17 @@ const OurTeam = () => {
 
 
     const staffTeam = [
-        { staffImage: '/assets/staffs/staff1.png', heading: 'Kirthika Manimaran', para: 'VP & HOD - English' },
-        { staffImage: '/assets/staffs/staff2.png', heading: 'Ms. Vidhya', para: 'Primary coordinator' },
-        { staffImage: '/assets/staffs/staff3.png', heading: 'Primary coordinator', para: 'HOD - Science' },
-        { staffImage: '/assets/staffs/staff4.png', heading: 'Raja Varadarajan', para: 'HOD - Maths' },
-        { staffImage: '/assets/staffs/staff5.png', heading: 'Shobana Kesavan', para: 'HOD - Computer Science' },
-        { staffImage: '/assets/staffs/staff6.png', heading: 'Sujatha Gangadharan', para: 'HOD - Tamil' },
-        { staffImage: '/assets/staffs/staff7.png', heading: 'Sumathi Elumalai', para: 'HOD - Physical Education' },
-        { staffImage: '/assets/staffs/staff8.png', heading: 'Ms. Maheshwari', para: 'Pre-Primary Coordinator' },
-        { staffImage: '/assets/staffs/staff9.png', heading: 'Vivek Sathyan', para: 'HOD - Dance' },
-        { staffImage: '/assets/staffs/staff10.png', heading: 'Kavitha Yadav', para: 'HOD - Hindi' },
-        { staffImage: '/assets/staffs/staff11.png', heading: 'Soundarrajan Venkatesan', para: 'HOD - Art & Craft' },
+        { staffImage: '/assets/staffs/staff1.png' , heading: 'Kirthika Manimaran', para: 'VP & HOD - English' },
+        { staffImage: '/assets/staffs/staff2.png' , heading: 'Ms. Vidhya', para: 'Primary coordinator' },
+        { staffImage: '/assets/staffs/staff3.png' , heading: 'Primary coordinator', para: 'HOD - Science' },
+        { staffImage: '/assets/staffs/staff4.png' , heading: 'Raja Varadarajan', para: 'HOD - Maths' },
+        { staffImage: '/assets/staffs/staff5.png' , heading: 'Shobana Kesavan', para: 'HOD - Computer Science' },
+        { staffImage: '/assets/staffs/staff6.png' , heading: 'Sujatha Gangadharan', para: 'HOD - Tamil' },
+        { staffImage: '/assets/staffs/staff7.png' , heading: 'Sumathi Elumalai', para: 'HOD - Physical Education' },
+        { staffImage: '/assets/staffs/staff8.png' , heading: 'Ms. Maheshwari', para: 'Pre-Primary Coordinator' },
+        { staffImage: '/assets/staffs/staff9.png' , heading: 'Vivek Sathyan', para: 'HOD - Dance' },
+        { staffImage: '/assets/staffs/staff10.png' , heading: 'Kavitha Yadav', para: 'HOD - Hindi' },
+        { staffImage: '/assets/staffs/staff11.png' , heading: 'Soundarrajan Venkatesan', para: 'HOD - Art & Craft' },
     ];
     return (
 
@@ -43,7 +43,7 @@ const OurTeam = () => {
                         <div className='col-md-6'>
 
                             <h2>Message from Our Principal</h2>
-                            <img src='/assets/vectors/Vector.png' className={styles.vectorImg} />
+                            <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg} />
 
                         </div>
 
@@ -63,7 +63,7 @@ const OurTeam = () => {
 
                             <h1>Our Team</h1>
 
-                            <img src='/assets/vectors/Vector5.png' className={styles.vectorImg5} />
+                            <img src='/assets/vectors/Vector5.png' alt ="image" className={styles.vectorImg5} />
 
 
                         </div>
@@ -93,9 +93,9 @@ const OurTeam = () => {
 
                         <div className='col-md-12 position-relative'>
 
-                            <img src='/assets/vectors/Vector6.png' className={styles.vectorImg6} />
+                            <img src='/assets/vectors/Vector6.png' alt ="image" className={styles.vectorImg6} />
 
-                            <img src='/assets/vectors/Vector8.png' className={styles.vectorImg8} />
+                            <img src='/assets/vectors/Vector8.png' alt ="image" className={styles.vectorImg8} />
 
                         </div>
 

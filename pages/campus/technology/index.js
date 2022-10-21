@@ -23,7 +23,7 @@ const Technology = () => {
                     <div className='row py-5'>
 
                         <h2 className={styles.headingPdng}>Technology</h2>
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -39,7 +39,7 @@ const Technology = () => {
 
                         <div className='col-md-5 position-relative'>
 
-                        <img src='/assets/vectors/Vector12.png' className={styles.vectorImg12} />
+                        <img src='/assets/vectors/Vector12.png' alt ="image" className={styles.vectorImg12} />
 
                             <h3>Interweaving technology
                                 with traditional learning
@@ -61,7 +61,7 @@ const Technology = () => {
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/library.png' className={styles.libraryImg} />
+                            <img src='/assets/campus/library.png' alt ="image" className={styles.libraryImg} />
 
                         </div>
 
@@ -106,7 +106,7 @@ const Technology = () => {
                                 protected from inappropriate content on the internet.
                             </p>
 
-                            <img src='/assets/vectors/Vector8.png' className={styles.vectorImg8} />
+                            <img src='/assets/vectors/Vector8.png' alt ="image" className={styles.vectorImg8} />
 
                         </div>
 

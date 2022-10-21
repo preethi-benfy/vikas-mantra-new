@@ -24,7 +24,7 @@ const Transportation = () => {
 
                         <h2 className={styles.headingPdng}>Transportation</h2>
 
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -52,13 +52,13 @@ const Transportation = () => {
                                 on distances between the school and the student’s pick-up/drop-off point.
                             </p>
 
-                            <img src='/assets/vectors/Vector11.png' className={styles.vectorImg11} />
+                            <img src='/assets/vectors/Vector11.png' alt ="image" className={styles.vectorImg11} />
 
                         </div>
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/school-bus.png' className={styles.schlBusImg} />
+                            <img src='/assets/campus/school-bus.png' alt ="image" className={styles.schlBusImg} />
 
                         </div>
 

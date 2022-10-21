@@ -26,7 +26,7 @@ const Admissions = () => {
                     <div className='row py-5'>
 
                         <h2 className={styles.headingPdng}>Admissions</h2>
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -87,7 +87,7 @@ const Admissions = () => {
 
                                 <div className='col-md-8 offset-md-4'>
 
-                                    <img src='/assets/banners/school-building2.png' className={styles.schoolBuildingImg} />
+                                    <img src='/assets/banners/school-building2.png' alt ="image" className={styles.schoolBuildingImg} />
 
                                 </div>
 
@@ -97,7 +97,7 @@ const Admissions = () => {
                                     <div className={styles.card1 + " card"}>
 
                                         <div className="card-body">
-                                            <img src='/assets/vectors/Vector5.png' className={styles.Sec1vectorImg5} />
+                                            <img src='/assets/vectors/Vector5.png' alt ="image" className={styles.Sec1vectorImg5} />
                                             <h5 className="card-title">Admission</h5>
                                             <hr className={styles.hrLine} />
                                             <h6 className="card-text">
@@ -113,7 +113,7 @@ const Admissions = () => {
                                                 <li className='pt-1'>To find out more about admissions at VIKAS MANTRA PUBLIC SCHOOL or to visit the school for an admissions tour</li>
                                                 <li className='pt-1'>Please contact the Admission Coordinator between 8.30 am and 4.30 pm., Mon-Sat  |  9.00 am – 1.00 pm on Saturdays (Except 2nd Sat)</li>
                                             </ul>
-                                            <img src='/assets/vectors/Vector10.png' className={styles.Sec1vectorImg10} />
+                                            <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.Sec1vectorImg10} />
                                         </div>
 
                                     </div>
@@ -132,7 +132,7 @@ const Admissions = () => {
 
                                 <div className={styles.Sec2PdngBtm + ' col-md-8 offset-md-4'}>
 
-                                    <img src='/assets/banners/school-building2.png' className={styles.schoolBuildingImg} />
+                                    <img src='/assets/banners/school-building2.png' alt ="image" className={styles.schoolBuildingImg} />
 
                                 </div>
 
@@ -142,14 +142,14 @@ const Admissions = () => {
 
                                 <div className={ styles.order3 + ' col-md-6 py-5'}>
  
-                                    <img src='/assets/banners/student.png' className={styles.studentImg} />
+                                    <img src='/assets/banners/student.png' alt ="image" className={styles.studentImg} />
 
                                 </div>
 
                                 <div className={ styles.order2 + ' col-md-5 py-5 position-relative' }>
 
-                                    <img src='/assets/vectors/Vector3.png' className={styles.Sec2vectorImg3} />
-                                    <img src='/assets/VMPS.png' className={styles.Sec2vmpsImg} />
+                                    <img src='/assets/vectors/Vector3.png' alt ="image" className={styles.Sec2vectorImg3} />
+                                    <img src='/assets/VMPS.png' alt ="image" className={styles.Sec2vmpsImg} />
 
                                     <h2>Timelines and key milestones
                                         for the academic year 2022-23 VIKAS MANTRA PUBLIC SCHOOL admissions process
@@ -199,7 +199,7 @@ const Admissions = () => {
                                         closed on 30th June 2022.
                                     </p>
 
-                                    <img src='/assets/vectors/Vector9.png' className={styles.Sec2vectorImg6} />
+                                    <img src='/assets/vectors/Vector9.png' alt ="image" className={styles.Sec2vectorImg6} />
 
                                 </div>
 
@@ -215,7 +215,7 @@ const Admissions = () => {
 
                                 <div className='col-md-8 offset-md-4'>
 
-                                    <img src='/assets/banners/school-building2.png' className={styles.schoolBuildingImg} />
+                                    <img src='/assets/banners/school-building2.png' alt ="image" className={styles.schoolBuildingImg} />
 
                                 </div>
 
@@ -235,7 +235,7 @@ const Admissions = () => {
                                                 <li className='pt-1'>For Senior KG the child must have completed 4.5  years as on 30th June.</li>
                                             </ul>
 
-                                            <img src='/assets/vectors/Vector5.png' className={styles.Sec3vectorImg5} />
+                                            <img src='/assets/vectors/Vector5.png' alt ="image" className={styles.Sec3vectorImg5} />
 
                                         </div>
 
@@ -327,7 +327,7 @@ const Admissions = () => {
                                         </div>
                                     </div>
 
-                                    <img src='/assets/vectors/Vector3.png' className={styles.Sec3vectorImg3} />
+                                    <img src='/assets/vectors/Vector3.png' alt ="image" className={styles.Sec3vectorImg3} />
 
                                 </div>
 
@@ -440,7 +440,7 @@ const Admissions = () => {
 
                                         <li>Each class is limited to 35 students only.</li>
 
-                                        <img src='/assets/vectors/Vector6.png' className={styles.Sec3vectorImg6} />
+                                        <img src='/assets/vectors/Vector6.png' alt ="image" className={styles.Sec3vectorImg6} />
 
                                     </ul>
 
@@ -458,15 +458,15 @@ const Admissions = () => {
 
                                 <div className='col-md-8 offset-md-4'>
 
-                                    <img src='/assets/banners/school-building2.png' className={styles.schoolBuildingImg} />
+                                    <img src='/assets/banners/school-building2.png' alt ="image" className={styles.schoolBuildingImg} />
 
                                 </div>
 
                                 <div className={styles.sectionPdng4 + ' col-md-10 position-relative'}>
 
-                                    <img src='/assets/vectors/Vector10.png' className={styles.Sec4vectoImg10} />
+                                    <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.Sec4vectoImg10} />
 
-                                    <img src='/assets/VMPS.png' className={styles.Sec4vmpsImg} />
+                                    <img src='/assets/VMPS.png' alt ="image" className={styles.Sec4vmpsImg} />
 
                                     <h2>FAQ</h2>
 
@@ -492,7 +492,7 @@ const Admissions = () => {
 
                                     <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> What kind of training do you provide your teachers?</h4>
 
-                                    <img src='/assets/vectors/Vector11.png' className={styles.Sec4vectorImg11} />
+                                    <img src='/assets/vectors/Vector11.png' alt ="image" className={styles.Sec4vectorImg11} />
 
                                 </div>
 

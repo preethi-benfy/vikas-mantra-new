@@ -24,7 +24,7 @@ const Security = () => {
 
                         <h2 className={styles.headingPdng}>Security</h2>
 
-                        <img src='/assets/vectors/Vector.png' className={styles.vectorImg1} />
+                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 
@@ -40,7 +40,7 @@ const Security = () => {
 
                         <div className='col-md-5 position-relative'>
 
-                        <img src='/assets/vectors/Vector10.png' className={styles.vectorImg10} />
+                        <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.vectorImg10} />
 
                             <h3>Security at VIKAS MANTRA
                                 PUBLIC SCHOOL</h3>
@@ -61,9 +61,9 @@ const Security = () => {
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/security.png' className={styles.securityImg} />
+                            <img src='/assets/campus/security.png' alt ="image" className={styles.securityImg} />
 
-                            <img src='/assets/vectors/Vector11.png' className={styles.vectorImg11} />
+                            <img src='/assets/vectors/Vector11.png' alt ="image" className={styles.vectorImg11} />
 
                         </div>
 
