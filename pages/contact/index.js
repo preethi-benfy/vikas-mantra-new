@@ -17,7 +17,6 @@ const Contact = () => {
                             <a className='mx-2'>Contact</a>
                         </div>
 
-
                     </div>
 
                     <div className='row py-5'>
@@ -45,7 +44,10 @@ const Contact = () => {
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/school-building3.png' className={styles.schlBusImg} />
+                            <img
+                                src='assets/campus/school-building3.png'
+                                className={styles.schlBusImg}
+                            />
 
                         </div>
 
