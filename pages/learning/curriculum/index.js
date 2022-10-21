@@ -110,7 +110,7 @@ function Curriculum() {
 
                             <ul className={styles.progress} id={styles.progress}>
 
-                               <li><a href='#holistic-approach'>The  VIKAS MANTRA PUBLIC SCHOOL</a></li>
+                               <li><Link href='#holistic-approach'>The  VIKAS MANTRA PUBLIC SCHOOL</Link></li>
 
                                 <li>Pre-Primary Years (Nursery and Kindergarten)</li>
 
