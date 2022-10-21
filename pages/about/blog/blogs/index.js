@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import styles from './style.module.css'
-import BlogDates from '../../../components/BlogDates/BlogDates'
+import BlogDates from '../../../../components/BlogDates/BlogDates'
 
 const Blog1 = () => {
     return (

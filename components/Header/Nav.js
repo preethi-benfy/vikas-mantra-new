@@ -21,9 +21,9 @@ var pageName = asPath.replace('/', "")
           <div className="container">
             <a className={styles.mainLogo + ' ' + 'navbar-brand'} href="#">
               {pageName === 'home' ? 
-                <img src='/assets/vmps-white-logo.png'  />
+                <img src='/assets/vmps-white-logo.png' alt='image' />
                 :
-                <img src='/assets/vmps-color.png' />
+                <img src='/assets/vmps-color.png' alt='image' />
                 }
              
             </a>

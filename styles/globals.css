@@ -293,11 +293,12 @@ p {
   transition: all 800ms ease;
 }
 
-
+.dividerActivated .divider{
+  background-color: rgba(92, 184, 92, 1);
+}
 #progress li{
   list-style: none;
   line-height: 25px;
-
 }
 
 #progress li p{width: 480px;margin-left: 25px;}
