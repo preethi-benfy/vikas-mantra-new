@@ -1,8 +1,6 @@
 import React from 'react'
 import {useRouter} from 'next/router'
 import Button from 'react-bootstrap/Button';
-import vmps from '../../public/assets/vmps-white-logo.png'
-import vmpsColor from '../../public/assets/vmps-color.png'
 import styles from "./style.module.css"
 
 
@@ -23,9 +21,9 @@ var pageName = asPath.replace('/', "")
           <div className="container">
             <a className={styles.mainLogo + ' ' + 'navbar-brand'} href="#">
               {pageName === 'home' ? 
-                <img src={vmps}  />
+                <img alt='image' src= '/assets/vmps-white-logo.png' />
                 :
-                <img src={vmpsColor}/>
+                <img alt='image' src='/assets/vmps-color.png' />
                 }
              
             </a>
