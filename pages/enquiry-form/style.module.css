@@ -1,0 +1,50 @@
+.form .formText{border: none;border-bottom: 1.5px solid #b0b0b0;border-radius: 0;padding: 0;}
+
+.formCenter{text-align: center;margin: 0 auto;}
+
+.form{text-align: left;padding: 70px 0px 70px 70px;background: #fff;position: relative;top: -150px;}
+
+.formPb{padding-bottom: 25px;}
+
+.schoolLogo{position: relative;}
+
+.schoolLogo::before {
+    content: "";
+    position: absolute;
+    top: -47px;
+    left: 61px;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/vectors/Vector.png);
+    background-size: 142px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    z-index: 1;}
+
+.schoolLogo::after {
+    content: "";
+    position: absolute;
+    top: 140px;
+    right: 536px;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/vectors/vector12.png);
+    background-size: 142px;
+    background-position: top left;
+    background-repeat: no-repeat;
+    z-index: 1;}
+
+.eqBg{position: relative;}
+
+.eqBg::after {
+    content: "";
+    position: absolute;
+    top: -55px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/vectors/Vector9.png);
+    background-size: 142px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    z-index: 1;}
