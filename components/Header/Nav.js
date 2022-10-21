@@ -162,7 +162,7 @@ var pageName = asPath.replace('/', "")
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="/career">Career</a>
+                <a class="nav-link" href="/careers">Career</a>
               </li>
 
             </ul>
