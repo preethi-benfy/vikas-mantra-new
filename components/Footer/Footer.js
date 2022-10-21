@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import VikasLogo from '../../public/Assets/VikasLogo.png'
+import VikasLogo from '../../public/assets/VikasLogo.png'
 import styles from './style.module.css'
 
 
