@@ -40,9 +40,9 @@ var pageName = asPath.replace('/', "")
           <div className="container">
             <a className={styles.mainLogo + ' ' + 'navbar-brand'} href="#">
               {pageName === 'home' ? 
-                <Image src={vmps}  />
+                <Image src={vmps} alt='image' />
                 :
-                <Image src={vmpsColor}/>
+                <Image src={vmpsColor} alt='image'/>
                 }
              
             </a>

@@ -87,9 +87,9 @@ const MessageFromPrincipal = () => {
 
                         <div className='col-md-6 position-relative'>
 
-                            <img src={'/assets/banners/principal.png' alt ="image"} className={styles.PrincipalImg} />
+                            <img src='/assets/banners/principal.png' alt ="image" className={styles.PrincipalImg} />
 
-                            <img src={'/assets/vectors/Vector2.png' alt ="image"} className={styles.vectorImg2} />
+                            <img src='/assets/vectors/Vector2.png' alt ="image" className={styles.vectorImg2} />
 
                         </div>
 

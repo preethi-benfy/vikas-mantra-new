@@ -74,7 +74,7 @@ const OurTeam = () => {
 
                                 <div className='col-md-4 py-2' key={i}>
 
-                                    <img src={item.staffImage} className={styles.staffImg} />
+                                    <img src={item.staffImage} alt ='image' className={styles.staffImg} />
 
                                     <h6 className='pt-4'>{item.heading}</h6>
 
