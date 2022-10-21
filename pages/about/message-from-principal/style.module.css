@@ -1,0 +1,79 @@
+.homeIcon {
+    color: #AA182C;
+    margin-right: 10px;
+}
+
+.hrLine {
+    color: #AA182C;
+    height: 1px;
+    width: 70px;
+}
+.vectorImg {
+    width: auto;
+    height: 322px;
+    position: absolute;
+    right: -104px;
+    top: -24px;
+    z-index: 99;
+}
+.sectionContainer{
+    padding: 50px 0px;
+}
+.vectorImg1{
+    width: auto;
+    position: absolute;
+    left: -8px;
+    top: 300px;
+    height: 150px;
+}
+.PrincipalImg{
+    position: absolute;
+    height: 480px;
+    top: -460px;
+    right: -104px;
+}
+.vectorImg2{
+    right: -54px;
+    position: absolute;
+    bottom: -245px;
+    height: 160px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .vectorImg{
+        width: auto;
+        height: 100px;
+        position: absolute;
+        right: 0px;
+        top: 158px;
+        z-index: 1;
+    }
+
+    .vectorImg2 {
+        width: auto;
+        position: absolute;
+        right: 0;
+        top: 285px;
+        height: 100px;
+    }
+
+    .vectorImg1 {
+        right: 1px;
+        position: absolute;
+        bottom: -38px;
+        height: 100px;
+    }
+
+    .PrincipalImg {
+        position: unset;
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    .sectionContainer {
+        padding: 0px;
+    }
+}

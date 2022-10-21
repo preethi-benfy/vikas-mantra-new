@@ -1,0 +1,80 @@
+.homeIcon {
+    color: #AA182C;
+    margin-right: 10px;
+}
+
+.hrLine {
+    color: #AA182C;
+    height: 2px;
+    width: 70px;
+}
+
+.vectorImg1 {
+    width: auto;
+    height: 280px;
+    position: absolute;
+    right: -104px;
+    top: -30px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.libraryImg {
+    width: 100%;
+    position: absolute;
+    top: -185px;
+    right: -58px;
+}
+
+.vectorImg12 {
+    position: absolute;
+    height: 185px;
+    top: 35px;
+    right: 0;
+    left: -114px;
+}
+
+.vectorImg8 {
+    bottom: 145px;
+    position: absolute;
+    height: 170px;
+    right: -484px;
+}
+
+.sectionPdng {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .vectorImg1 {
+        width: auto;
+        height: 100px;
+        position: absolute;
+        right: 0px;
+        top: 157px;
+        padding: 0px;
+        z-index: 1;
+    }
+
+    .vectorImg8 {
+        bottom: -45px;
+        position: absolute;
+        height: 75px;
+        right: 0px;
+    }
+
+    .libraryImg {
+        width: 100%;
+        position: unset;
+    }
+
+    .sectionPdng {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+}

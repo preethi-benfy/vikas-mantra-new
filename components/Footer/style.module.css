@@ -1,0 +1,33 @@
+.contactUs p {
+    margin: 0px;
+}
+
+.quickLink a {
+    margin: 10px 0px;
+}
+
+.section {
+    background-color: #452C2C;
+    color: #fff;
+}
+
+.hrLine {
+    height: 2px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+.sendBtn {
+    padding: 5px 35px;
+    color: #AEAEAE;
+}
+
+.formInput {
+    border: 5px solid #fff !important;
+}
+
+input.formInput::placeholder {
+    /* Chrome/Opera/Safari */
+   color: #AEAEAE;
+}

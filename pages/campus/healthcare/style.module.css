@@ -1,0 +1,83 @@
+.homeIcon {
+    color: #AA182C;
+    margin-right: 10px;
+}
+
+.hrLine {
+    color: #AA182C;
+    height: 2px;
+    width: 70px;
+}
+
+.vectorImg1 {
+    width: auto;
+    height: 280px;
+    position: absolute;
+    right: -104px;
+    top: -30px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.securityImg {
+    width: 100%;
+    position: absolute;
+    top: -185px;
+    right: -58px;
+}
+
+.vectorImg10 {
+    position: absolute;
+    height: 160px;
+    right: -715px;
+    bottom: 0;
+}
+
+.vectorImg12 {
+    position: absolute;
+    height: 140px;
+    left: -110px;
+    top: 48px;
+}
+
+.sectionPdng {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .vectorImg1 {
+        width: auto;
+        height: 100px;
+        position: absolute;
+        right: 0px;
+        top: 157px;
+        padding: 0px;
+        z-index: 1;
+    }
+
+    .securityImg {
+        width: 100%;
+        position: unset;
+    }
+
+    .vectorImg10{
+        position: absolute;
+        height: 60px;
+        right: 0px;
+        bottom: -20px;
+    }
+
+    .sectionPdng {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .schlBusImg {
+        width: 100%;
+        position: unset;
+    }
+
+}

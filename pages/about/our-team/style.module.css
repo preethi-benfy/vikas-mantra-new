@@ -1,0 +1,71 @@
+.homeIcon {
+    color: #AA182C;
+    margin-right: 10px;
+}
+
+.vectorImg {
+    width: auto;
+    height: 322px;
+    position: absolute;
+    right: -104px;
+    top: -24px;
+    z-index: 99;
+}
+
+.hrLine {
+    color: #AA182C;
+    height: 1px;
+    width: 70px;
+}
+
+.vectorImg5 {
+    position: absolute;
+    right: 302px;
+    top: -8px;
+    z-index: -1;
+    height: 150px;
+}
+
+.vectorImg6 {
+    bottom: 888px;
+    position: absolute;
+    left: -156px;
+    height: 130px;
+}
+
+.vectorImg8 {
+    position: absolute;
+    right: -104px;
+    bottom: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .vectorImg {
+        width: auto;
+        height: 100px;
+        position: absolute;
+        right: 0px;
+        top: 0;
+        z-index: 1;
+    }
+    .vectorImg8 {
+        position: absolute;
+        right: 0px;
+        bottom: -36px;
+        height: 100px;
+    }
+    .vectorImg5 {
+        position: absolute;
+        top: -60px;
+        z-index: -1;
+        height: 71px;
+        left: -20px;
+    }
+    .rowPdng{
+        padding: 0 !important;
+    }
+    .staffImg{
+        width: 100%;
+    }
+}

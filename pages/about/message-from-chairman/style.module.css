@@ -1,0 +1,82 @@
+.homeIcon {
+    color: #AA182C;
+    margin-right: 10px;
+}
+
+.hrLine {
+    color: #AA182C;
+    height: 1px;
+    width: 70px;
+}
+
+.vectorImg1 {
+    width: auto;
+    height: 322px;
+    position: absolute;
+    right: -104px;
+    top: -24px;
+    z-index: 99;
+}
+
+.sectionContainer {
+    padding: 50px 0px;
+}
+
+.vectorImg2 {
+    width: auto;
+    position: absolute;
+    left: -8px;
+    top: 300px;
+    height: 150px;
+}
+
+.ChairmanImg {
+    position: absolute;
+    height: 480px;
+    top: -555px;
+    right: -104px;
+}
+
+.vectorImg7 {
+    right: -54px;
+    position: absolute;
+    bottom: 5px;
+    height: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+    .vectorImg1 {
+        width: auto;
+        height: 100px;
+        position: absolute;
+        right: 0;
+        top: 158px;
+        z-index: 1;
+    }
+
+    .vectorImg2 {
+        width: auto;
+        position: absolute;
+        left: -8px;
+        top: 285px;
+        height: 100px;
+    }
+
+    .vectorImg7 {
+        right: 1px;
+        position: absolute;
+        bottom: -38px;
+        height: 100px;
+    }
+
+    .ChairmanImg {
+        position: unset;
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+    }
+
+    .sectionContainer {
+        padding: 0px;
+    }
+}

@@ -1,0 +1,155 @@
+.vectorImg1 {
+    width: auto;
+    height: 322px;
+    position: absolute;
+    right: -104px;
+    top: -24px;
+}
+
+.vectorImg2 {
+    position: absolute;
+    bottom: -95px;
+    left: -154px;
+    height: 165px;
+}
+
+.vectorImg4 {
+    position: absolute;
+    right: -104px;
+    bottom: 210px;
+    height: 150px;
+}
+
+.vmpsImg {
+    position: absolute;
+    right: 40px;
+    bottom: -350px;
+}
+
+.homeIcon {
+    color: #AA182C;
+    margin-right: 10px;
+}
+
+.hrLine {
+    color: #AA182C;
+    height: 2px;
+    width: 70px;
+}
+
+.schoolBuildingImg {
+    width: 100%;
+    position: absolute;
+    left: -106px;
+    top: -200px;
+}
+
+.sectionPdng {
+    padding: 75px 0px;
+}
+
+.bannerSection {
+    color: #fff;
+    background: url(/assets/banners/staff-group-photo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: end;
+    height: 125vh;
+    width: 100%;
+}
+
+.bannerSection::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(29, 29, 29, 0) 37.81%, #1D1D1D 65.83%);
+}
+
+.ResponsiveImage {
+    height: 45vh;
+    width: 100%;
+}
+
+.bannercontent1 {
+    z-index: 1;
+    margin-bottom: 50px;
+    padding: 0px 70px 40px 0px;
+    position: absolute;
+    bottom: -105px;
+}
+
+.bannercontent2 {
+    z-index: 1;
+    margin-bottom: 50px;
+    padding: 0px 70px 40px 0px;
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
+}
+
+.headingPdng {
+    padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+    .headingPdng {
+        padding-bottom: 0px;
+    }
+
+    .sectionPdng {
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+
+    .schoolBuildingImg {
+        position: unset;
+        width: 100%;
+        height: 100%;
+    }
+
+    .vectorImg2 {
+        position: absolute;
+        bottom: -120px;
+        left: 0px;
+        height: 100px;
+    }
+
+    .vectorImg1 {
+        width: auto;
+        height: 100px;
+        position: absolute;
+        right: 0px;
+        z-index: 1;
+        padding: 0;
+        top: 339px;
+    }
+
+    .vmpsImg {
+        position: absolute;
+        right: 40px;
+        bottom: -594px;
+        height: 30px;
+    }
+
+    .vectorImg4 {
+        position: absolute;
+        right: 0px;
+        bottom: 20px;
+        height: 100px;
+    }
+
+    .ResponsiveImage {
+        height: 45vh;
+        width: 100%;
+    }
+
+    .bannerSection {
+        display: none;
+    }
+}

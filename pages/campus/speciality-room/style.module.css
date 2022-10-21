@@ -1,0 +1,83 @@
+.homeIcon {
+    color: #AA182C;
+    margin-right: 10px;
+}
+
+.hrLine {
+    color: #AA182C;
+    height: 2px;
+    width: 70px;
+}
+
+.vectorImg1 {
+    width: auto;
+    height: 280px;
+    position: absolute;
+    right: -104px;
+    top: -30px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.classroomImg {
+    width: 100%;
+    position: absolute;
+    top: -185px;
+    right: -58px;
+}
+
+.vectorImg12 {
+    position: absolute;
+    height: 150px;
+    left: -110px;
+    top: 214px;
+}
+
+.vectorImg10 {
+    bottom: -55px;
+    position: absolute;
+    height: 170px;
+    right: -80px;
+}
+
+.sectionPdng {
+    padding-top: 215px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .vectorImg1 {
+        width: auto;
+        height: 100px;
+        position: absolute;
+        right: 0px;
+        top: 157px;
+        padding: 0px;
+        z-index: 1;
+    }
+
+    .vectorImg10 {
+        bottom: -55px;
+        position: absolute;
+        height: 70px;
+        right: 0px;
+    }
+
+    .sectionPdng {
+        padding-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+
+    .classroomImg {
+        width: 100%;
+        position: unset;
+    }
+
+    .pdngZero {
+        padding: 0% !important;
+    }
+
+}

@@ -1,0 +1,65 @@
+.homeIcon {
+    color: #AA182C;
+    margin-right: 10px;
+}
+
+.hrLine {
+    color: #AA182C;
+    height: 2px;
+    width: 70px;
+}
+
+.vectorImg1 {
+    width: auto;
+    height: 280px;
+    position: absolute;
+    right: -104px;
+    top: -30px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.schlBuildingImg {
+    width: 100%;
+    position: absolute;
+    top: -200px;
+    right: -58px;
+}
+
+.vectorImg5 {
+    position: absolute;
+    height: 150px;
+    left: -150px;
+    top: 80px;
+}
+
+.vectorImg10 {
+    position: absolute;
+    height: 170px;
+    right: 15px;
+    bottom: -330px;
+}
+
+@media only screen and (max-width: 600px) {
+    .vectorImg10 {
+        position: absolute;
+        height: 70px;
+        right: 15px;
+        bottom: -183px;
+    }
+
+    .schlBuildingImg {
+        width: 100%;
+        position: unset;
+    }
+
+    .vectorImg1 {
+        width: auto;
+        height: 100px;
+        position: absolute;
+        right: 0px;
+        top: 157px;
+        padding: 0px;
+        z-index: 1;
+    }
+}

@@ -1,0 +1,117 @@
+.homeIcon {
+    color: #AA182C;
+    margin-right: 10px;
+}
+
+.hrLine {
+    color: #AA182C;
+    height: 2px;
+    width: 70px;
+}
+
+.vectorImg1 {
+    width: auto;
+    height: 280px;
+    position: absolute;
+    right: -104px;
+    top: -30px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.schlBusImg {
+    width: 100%;
+    position: absolute;
+    top: -330px;
+    right: -58px;
+}
+
+.vectorImg11 {
+    position: absolute;
+    height: 150px;
+    left: -130px;
+    bottom: -160px;
+}
+
+.sectionPdng {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.rowPdng {
+    padding-top: 222px;
+}
+
+.iconsImg {
+    height: 60px;
+}
+
+.vectorImg10 {
+    position: absolute;
+    height: 140px;
+    right: -104px;
+    bottom: -58px;
+}
+
+.vectorImg13 {
+    position: absolute;
+    height: 145px;
+    left: -120px;
+    top: -193px;
+}
+
+.paraAlign {
+    text-align: start;
+    padding-left: 95px;
+}
+.paraAlign3{
+    text-align: start;
+    padding-left: 111px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .vectorImg1{
+        width: auto;
+        height: 100px;
+        position: absolute;
+        right: 0px;
+        top: 158px;
+        padding: 0px;
+        z-index: 1;
+    }
+    .schlBusImg{
+        width: 100%;
+        position: absolute;
+        top: -138px;
+        right: 0px;
+    }
+    .rowPdng{
+        padding-top: 150px;
+    }
+    .vectorImg10{
+        position: absolute;
+        height: 90px;
+        right: 0px;
+        bottom: -127px;
+    }
+    .paraAlign{
+        text-align: start;
+        padding: 20px 104px;
+    }
+    .paraAlign3{
+        text-align: start;
+        padding: 0px 112px;
+    }
+    .vectorImg13{
+        position: absolute;
+        height: 65px;
+        left: -15px;
+        top: -76px;
+    }
+    .sectionPdng {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+  }
