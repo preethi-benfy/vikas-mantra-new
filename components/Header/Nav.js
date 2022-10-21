@@ -21,9 +21,9 @@ var pageName = asPath.replace('/', "")
           <div className="container">
             <a className={styles.mainLogo + ' ' + 'navbar-brand'} href="#">
               {pageName === 'home' ? 
-                <img alt='image' src= '/assets/vmps-white-logo.png' />
+                <img src='/assets/vmps-white-logo.png'  />
                 :
-                <img alt='image' src='/assets/vmps-color.png' />
+                <img src='/assets/vmps-color.png' />
                 }
              
             </a>
@@ -73,7 +73,7 @@ var pageName = asPath.replace('/', "")
             <ul className="navbar-nav mb-2 mb-lg-0">
 
               <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="/home">Home</a>
               </li>
           
               <li className={'nav-item dropdown'}>
@@ -81,22 +81,22 @@ var pageName = asPath.replace('/', "")
                     About
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">About Vikas Mantra</a></li>
+                    <li><a className="dropdown-item" href="/about">About Vikas Mantra</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="#">Our Vision & Philosophy</a></li>
+                    <li><a className="dropdown-item" href="/about/vision-and-philosophy">Our Vision & Philosophy</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Chairman’s Message</a></li>
+                    <li><a class="dropdown-item" href="/about/message-from-chairman">Chairman’s Message</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Principal’s Message</a></li>
+                    <li><a class="dropdown-item" href="/about/message-from-principal">Principal’s Message</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Our Team</a></li>
+                    <li><a class="dropdown-item" href="/about/our-team">Our Team</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                    <li><a class="dropdown-item" href="/about/blog">Blog</a></li>
                   </ul>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Admissions</a>
+                <a class="nav-link" href="/admissions">Admissions</a>
               </li>
 
               <li className={'nav-item dropdown'}>
@@ -104,21 +104,23 @@ var pageName = asPath.replace('/', "")
                     Campus
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Classrooms</a></li>
+                    <li><a className="dropdown-item" href="/campus/classrooms">Classrooms</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="#">Laboratories</a></li>
+                    <li><a className="dropdown-item" href="/campus/facilities-and-Infrastructure">Facilities and Infrastructure</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Speciality Rooms</a></li>
+                    <li><a className="dropdown-item" href="/campus/laboratory">Laboratories</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Library</a></li>
+                    <li><a class="dropdown-item" href="/campus/speciality-room">Speciality Rooms</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Technology</a></li>
+                    <li><a class="dropdown-item" href="/campus/library">Library</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Security</a></li>
+                    <li><a class="dropdown-item" href="/campus/technology">Technology</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Healthcare</a></li>
+                    <li><a class="dropdown-item" href="/campus/security">Security</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Transportation</a></li>
+                    <li><a class="dropdown-item" href="/campus/healthcare">Healthcare</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li><a class="dropdown-item" href="/campus/transportation">Transportation</a></li>
                   </ul>
               </li>
 
@@ -127,40 +129,40 @@ var pageName = asPath.replace('/', "")
                    Learning
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Why VIKAS MANTRA PUBLIC SCHOOL</a></li>
+                    <li><a className="dropdown-item" href="/learning">Why VIKAS MANTRA PUBLIC SCHOOL</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="#">Curriculum</a></li>
+                    <li><a className="dropdown-item" href="/learning/curriculum">Curriculum</a></li>
                     <li><hr class="dropdown-divider" /></li>
                     <li><a class="dropdown-item" href="#">Pre-Primary Years</a></li>
                     <li><hr class="dropdown-divider" /></li>
                     <li><a class="dropdown-item" href="#">Curriculum Framework</a></li>
                     <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Online Classes</a></li>
+                    <li><a class="dropdown-item" href="/learning/online-classes">Online Classes</a></li>
                   </ul>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Enquiry Form</a>
+                <a class="nav-link" href="/enquiry-form">Enquiry Form</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Admissions</a>
+                <a class="nav-link" href="/admissions">Admissions</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Mandatory Public Disclosures</a>
+                <a class="nav-link" href="/mandatory-public-disclosures">Mandatory Public Disclosures</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
+                <a class="nav-link" href="/events">Events</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="/contact">Contact Us</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Career</a>
+                <a class="nav-link" href="/career">Career</a>
               </li>
 
             </ul>
