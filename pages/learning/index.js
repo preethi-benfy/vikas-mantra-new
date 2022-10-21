@@ -156,51 +156,51 @@ function Learning() {
 
                         <div className={'sticky-sidebar' + ' ' + 'pt60'}>
 
-                            <ul id='progress'>
+                        <ul id='progress'>
 
-                               <li className={'node' + ' ' + 'green'}> <a href='#holistic-approach'>Holistic Approach</a></li>
+                            <a href='#holistic-approach' ><li className={'node' + ' ' + 'green'}><p> Holistic Approach</p></li></a>
 
-                               <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                            <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>Global Outlook, Local Application</a></li>
+                            <a href='#'><li className={'node' + ' ' + 'grey'}><p>Global Outlook, Local Application</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                              <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>Recognizing That Every Child is Unique</a></li>
+                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Recognizing That Every Child is Unique</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                              <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>21st Century Ready Infrastructure</a></li>
+                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>21st Century Ready Infrastructure</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                              <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>Talented Faculty</a></li>
+                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Talented Faculty</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                              <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>Rich Curriculum</a></li>
+                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Rich Curriculum</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                              <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>Window to the World</a></li>
+                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Window to the World</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                              <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>Technologically Wired for a Wireless World</a></li>
+                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Technologically Wired for a Wireless World</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                              <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>A Smorgasbord of Co-Curricular Choices</a></li>
+                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>A Smorgasbord of Co-Curricular Choices</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                              <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>Putting Community Engagement at the Forefront</a></li>
+                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Putting Community Engagement at the Forefront</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+                              <li><div className={'divider' + ' ' + 'grey'}></div></li>
 
-                                <li className={'node' + ' ' + 'grey'}><a href='#'>Preparing for Life Beyond School</a></li>
+                              <a href='#'><li className={'node' + ' ' + 'grey'}><p>Preparing for Life Beyond School</p></li></a>
 
-                                <li><div className={'divider' + ' ' + 'grey'}></div></li>
+
                             </ul>
 
                             <input type="button" value="Next" id="next"/>
