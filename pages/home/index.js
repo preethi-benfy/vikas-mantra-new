@@ -55,7 +55,7 @@ function Home() {
               <button className={'outlineBtn' + ' btn'}>Know More</button>
             </div>
 
-            <div className='col-md-6'>
+            <div className='col-md-6 m-pt40'>
               <img src='/assets/home-abt-vmps.png' alt ="image" className='img-fluid' />
             </div>
           </div>

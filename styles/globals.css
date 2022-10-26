@@ -310,3 +310,12 @@ p {
 .grey { background-color: rgba(201, 201, 201, 1); }
 
 .brownBtn{background-color: #AA182C;border-radius: 0;border-color: #AA182C;}
+
+
+@media only screen and (max-width: 660px){
+ .m-pb40{padding-bottom: 40px;}
+
+ .m-pt40{padding-top: 40px;}
+
+
+}
