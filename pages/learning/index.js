@@ -5,6 +5,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons'
 
 
 function Learning() {
+
   function progressClick(e) {
     const progressLink = e.target.closest('li')
     const progressLinkNode = e.target.parentNode.parentNode.previousSibling
@@ -13,6 +14,7 @@ function Learning() {
     progressLink.classList.add('activated')
     progressLinkNode.classList.add('dividerActivated')
   }
+  
   useEffect(() => {
     var list = document.getElementById('progress'),
       next = document.getElementById('next'),
