@@ -2,9 +2,11 @@ import React, { useEffect } from 'react'
 import styles from './style.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 
 function Learning() {
+
   function progressClick(e) {
     const progressLink = e.target.closest('li')
     const progressLinkNode = e.target.parentNode.parentNode.previousSibling
@@ -13,6 +15,7 @@ function Learning() {
     progressLink.classList.add('activated')
     progressLinkNode.classList.add('dividerActivated')
   }
+
   useEffect(() => {
     var list = document.getElementById('progress'),
       next = document.getElementById('next'),
@@ -81,6 +84,7 @@ function Learning() {
       >
         <div className='container'>
           <div className='row'>
+
             <div className='col-md-6'>
               <div className='mb-5' id='holistic-approach'>
                 <h4 className='ulineRed'>Holistic Approach</h4>
@@ -141,6 +145,7 @@ function Learning() {
                 </p>
               </div>
             </div>
+
             <div className={'col-md-6'}>
               <div className='imgUp'>
                 <img
@@ -153,108 +158,128 @@ function Learning() {
                 <ul id='progress'>
 
                   <li className={'node' + ' ' + 'green'}>
-                    <a href='#holistic-approach'><p> Holistic Approach</p></a>
+                    <Link href='#holistic-approach' legacyBehavior><a><p> Holistic Approach</p></a></Link>
                   </li>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#local-app' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>Global Outlook, Local Application</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#local-app'>
+                    <a onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>Global Outlook, Local Application</p>
+                      </li>
+                    </a>
+                  </Link>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#recognizing' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>Recognizing That Every Child is Unique</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#recognizing'>
+                    <a onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>Recognizing That Every Child is Unique</p>
+                      </li>
+                    </a>
+                  </Link>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#century' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>21st Century Ready Infrastructure</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#century'>
+                    <a onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>21st Century Ready Infrastructure</p>
+                      </li>
+                    </a>
+                  </Link>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#talentedFaculty' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>Talented Faculty</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#talentedFaculty'>
+                    <a onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>Talented Faculty</p>
+                      </li>
+                    </a>
+                  </Link>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>Rich Curriculum</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#'>
+                    <a onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>Rich Curriculum</p>
+                      </li>
+                    </a>
+                  </Link>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>Window to the World</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#'>
+                    <a href='#' onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>Window to the World</p>
+                      </li>
+                    </a>
+                  </Link>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>Technologically Wired for a Wireless World</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#'>
+                    <a onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>Technologically Wired for a Wireless World</p>
+                      </li>
+                    </a>
+                  </Link>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>A Smorgasbord of Co-Curricular Choices</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#'>
+                    <a onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>A Smorgasbord of Co-Curricular Choices</p>
+                      </li>
+                    </a>
+                  </Link>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>Putting Community Engagement at the Forefront</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#'>
+                    <a onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>Putting Community Engagement at the Forefront</p>
+                      </li>
+                    </a>
+                  </Link>
 
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
 
-                  <a href='#' onClick={(e) => progressClick(e)}>
-                    <li className={'node' + ' ' + 'grey'}>
-                      <p>Preparing for Life Beyond School</p>
-                    </li>
-                  </a>
+                  <Link legacyBehavior href='#'>
+                    <a onClick={(e) => progressClick(e)}>
+                      <li className={'node' + ' ' + 'grey'}>
+                        <p>Preparing for Life Beyond School</p>
+                      </li>
+                    </a>
+                  </Link>
 
                 </ul>
                 <input
