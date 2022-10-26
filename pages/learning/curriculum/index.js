@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./style.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 
 function Curriculum() {
@@ -111,7 +112,7 @@ function Curriculum() {
                                 <ul className={styles.progress} id={styles.progress}>
 
                                     <li>
-                                        <Link href='/holistic-approach'>The  VIKAS MANTRA PUBLIC SCHOOL</Link>
+                                        <Link href='/learning/curriculum'>The  VIKAS MANTRA PUBLIC SCHOOL</Link>
                                     </li>
 
                                     <li>Pre-Primary Years (Nursery and Kindergarten)</li>
