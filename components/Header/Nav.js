@@ -1,32 +1,32 @@
 import React from 'react'
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/router'
 import Button from 'react-bootstrap/Button';
 import styles from "./style.module.css"
-import { Link } from 'next/router';
+import Link from 'next/link'
 
 
-const Nav = ({ toplinks }) => {
+const Nav = () => {
 
-const {asPath} = useRouter()
+  const { asPath } = useRouter()
 
-var pageName = asPath.replace('/', "")
+  var pageName = asPath.replace('/', "")
 
   return (
 
     <>
 
 
-    <header className={styles.homeheader + ' ' + pageName}>
-    
-    <nav className={styles.navTransparent + ' navbar-expand-lg navbar'}>
+      <header className={styles.homeheader + ' ' + pageName}>
+
+        <nav className={styles.navTransparent + ' navbar-expand-lg navbar'}>
           <div className="container">
             <a className={styles.mainLogo + ' ' + 'navbar-brand'} href="#">
-              {pageName === 'home' ? 
+              {pageName === 'home' ?
                 <img src='/assets/vmps-white-logo.png' alt='image' />
                 :
                 <img src='/assets/vmps-color.png' alt='image' />
-                }
-             
+              }
+
             </a>
             <button
               className="navbar-toggler"
@@ -40,20 +40,20 @@ var pageName = asPath.replace('/', "")
               <span className="navbar-toggler-icon"></span>
             </button>
 
-          <div className="collapse navbar-collapse"
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <div className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
-              <Button  className={styles.firstbtn}>70924 50450</Button>
-              <Button className={styles.secondtbtn}>Enroll</Button>
+                <Button className={styles.firstbtn}>70924 50450</Button>
+                <Button className={styles.secondtbtn}>Enroll</Button>
 
-            </ul>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
 
-    <nav className={styles.navTransparent + ' ' + 'navbar' + ' ' + 'navbar-expand-lg'}>
+        <nav className={styles.navTransparent + ' ' + 'navbar navbar-expand-lg'}>
           <div className="container">
             <button
               className="navbar-toggler"
@@ -67,111 +67,232 @@ var pageName = asPath.replace('/', "")
               <span className="navbar-toggler-icon"></span>
             </button>
 
-          <div
-            className="collapse navbar-collapse"
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav mb-2 mb-lg-0">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
 
-              <li class="nav-item active">
-                <Link class="nav-link" aria-current="page" href="/home">Home</Link>
-              </li>
-          
-              <li className={'nav-item dropdown'}>
-              <Link className={'nav-link dropdown-toggle'} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    About
-                    </Link>
+              <ul className="navbar-nav mb-2 mb-lg-0">
+
+                <li className="nav-item active">
+                  <Link href="/home" legacyBehavior>
+                    <a className="nav-link" aria-current="page">Home</a>
+                  </Link>
+                </li>
+
+                <li className='nav-item dropdown'>
+                  <Link href="/about" legacyBehavior>
+                    <a className='nav-link dropdown-toggle' role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+                  </Link>
+
                   <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" href="/about">About Vikas Mantra</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link className="dropdown-item" href="/about/vision-and-philosophy">Our Vision & Philosophy</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/about/message-from-chairman">Chairman’s Message</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/about/message-from-principal">Principal’s Message</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/about/our-team">Our Team</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><LinK class="dropdown-item" href="/about/blog">Blog</LinK></li>
+
+                    <li>
+                      <Link href="/about" legacyBehavior>
+                        <a className="dropdown-item">About Vikas Mantra</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/about/vision-and-philosophy" legacyBehavior>
+                        <a className="dropdown-item">Our Vision & Philosophy</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/about/message-from-chairman" legacyBehavior>
+                        <a className="dropdown-item">Chairman’s Message</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/about/message-from-principal" legacyBehavior>
+                        <a className="dropdown-item">Principal’s Message</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/about/our-team" legacyBehavior>
+                        <a className="dropdown-item">Our Team</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/about/blog" legacyBehavior>
+                        <a className="dropdown-item">Blog</a>
+                      </Link>
+                    </li>
+
                   </ul>
-              </li>
 
-              <li class="nav-item">
-                <Link class="nav-link" href="/admissions">Admissions</Link>
-              </li>
+                </li>
 
-              <li className={'nav-item dropdown'}>
-                  <a className={'nav-link dropdown-toggle'} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Campus
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" href="/campus/classrooms">Classrooms</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link className="dropdown-item" href="/campus/facilities-and-Infrastructure">Facilities and Infrastructure</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link className="dropdown-item" href="/campus/laboratory">Laboratories</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/campus/speciality-room">Speciality Rooms</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/campus/library">Library</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/campus/technology">Technology</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/campus/security">Security</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/campus/healthcare">Healthcare</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/campus/transportation">Transportation</Link></li>
-                  </ul>
-              </li>
+                <li className="nav-item">
+                  <Link href="/admissions" legacyBehavior>
+                    <a className="nav-link">Admissions</a>
+                  </Link>
+                </li>
 
-              <li className={'nav-item dropdown'}>
-                  <Link className={'nav-link dropdown-toggle'} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   Learning
+                <li className='nav-item dropdown'>
+                  <Link href="/campus" legacyBehavior>
+                    <a className='nav-link dropdown-toggle' role="button" data-bs-toggle="dropdown" aria-expanded="false">Campus</a>
                   </Link>
                   <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" href="/learning">Why VIKAS MANTRA PUBLIC SCHOOL</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link className="dropdown-item" href="/learning/curriculum">Curriculum</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="#">Pre-Primary Years</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="#">Curriculum Framework</Link></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><Link class="dropdown-item" href="/learning/online-classes">Online Classes</Link></li>
+
+                    <li>
+                      <Link href="/campus/classrooms" legacyBehavior>
+                        <a className="dropdown-item">Classrooms</a>
+                      </Link>
+                    </li>
+
+                    <li><hr className="dropdown-divider" /></li>
+                    <li>
+                      <Link href="/campus/facilities-and-Infrastructure" legacyBehavior >
+                        <a className="dropdown-item">Facilities and Infrastructure</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/campus/laboratory" legacyBehavior>
+                        <a className="dropdown-item">Laboratories</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/campus/speciality-room" legacyBehavior>
+                        <a className="dropdown-item">Speciality Rooms</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/campus/library" legacyBehavior>
+                        <a className="dropdown-item">Library</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/campus/technology" legacyBehavior >
+                        <a className="dropdown-item">Technology</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/campus/security" legacyBehavior >
+                        <a className="dropdown-item">Security</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/campus/healthcare" legacyBehavior >
+                        <a className="dropdown-item">Healthcare</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
+
+                    <li>
+                      <Link href="/campus/transportation" legacyBehavior>
+                        <a className="dropdown-item">Transportation</a>
+                      </Link>
+                    </li>
                   </ul>
-              </li>
+                </li>
 
-              <li class="nav-item">
-                <Link class="nav-link" href="/enquiry-form">Enquiry Form</Link>
-              </li>
+                <li className='nav-item dropdown'>
+                  <Link href="/learning" legacyBehavior>
+                    <a className='nav-link dropdown-toggle' role="button" data-bs-toggle="dropdown" aria-expanded="false">Learning</a>
+                  </Link>
 
-              <li class="nav-item">
-                <Link class="nav-link" href="/admissions">Admissions</Link>
-              </li>
+                  <ul className="dropdown-menu">
 
-              <li class="nav-item">
-                <Link class="nav-link" href="/mandatory-public-disclosures">Mandatory Public Disclosures</Link>
-              </li>
+                    <li>
+                      <Link href="/learning" legacyBehavior>
+                        <a className="dropdown-item">Why VIKAS MANTRA PUBLIC SCHOOL</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
 
-              <li class="nav-item">
-                <Link class="nav-link" href="/events">Events</Link>
-              </li>
+                    <li>
+                      <Link href="/learning/curriculum" legacyBehavior>
+                        <a className="dropdown-item">Curriculum</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
 
-              <li class="nav-item">
-                <Link class="nav-link" href="/contact">Contact Us</Link>
-              </li>
+                    <li>
+                      <Link href="#" legacyBehavior>
+                        <a className="dropdown-item">Pre-Primary Years</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
 
-              <li class="nav-item">
-                <Link class="nav-link" href="/careers">Career</Link>
-              </li>
+                    <li>
+                      <Link href="#" legacyBehavior>
+                        <a className="dropdown-item">Curriculum Framework</a>
+                      </Link>
+                    </li>
+                    <li><hr className="dropdown-divider" /></li>
 
-            </ul>
+                    <li>
+                      <Link legacyBehavior href="/learning/online-classes">
+                        <a className="dropdown-item">Online Classes</a>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+
+                <li className="nav-item">
+                  <Link legacyBehavior href="/enquiry-form">
+                    <a className="nav-link">Enquiry Form</a>
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link legacyBehavior href="/admissions">
+                    <a className="nav-link">Admissions</a>
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link legacyBehavior href="/mandatory-public-disclosures">
+                    <a className="nav-link">Mandatory Public Disclosures</a>
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link legacyBehavior href="/events">
+                    <a className="nav-link">Events</a>
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link legacyBehavior href="/contact">
+                    <a className="nav-link">Contact Us</a>
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link legacyBehavior href="/careers">
+                    <a className="nav-link">Career</a>
+                  </Link>
+                </li>
+
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
 
-    </header>
+      </header>
 
     </>
 

@@ -65,7 +65,7 @@ function index() {
 
                             </Dropdown.Item>
 
-                            <li><hr class="dropdown-divider" /></li>
+                            <li><hr className="dropdown-divider" /></li>
 
                             <Dropdown.Item>
 

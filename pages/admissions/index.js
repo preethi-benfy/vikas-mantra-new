@@ -157,7 +157,7 @@ const Admissions = () => {
 
                                     <hr className={styles.hrLine} />
 
-                                    <table class="table table-bordered">
+                                    <table className="table table-bordered">
 
                                         <tbody>
 

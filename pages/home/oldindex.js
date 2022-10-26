@@ -181,7 +181,7 @@ function index() {
                     >
                       <img
                         src='/assets/home-happy-face.png' alt ="image"
-                        class='img-fluid'
+                        className='img-fluid'
                       ></img>
                     </div>
                   </div>

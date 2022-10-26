@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import styles from './style.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
-import Link from 'next/link'
+
 
 function Learning() {
   function progressClick(e) {
@@ -151,91 +151,111 @@ function Learning() {
               </div>
               <div className={'sticky-sidebar' + ' ' + 'pt60'}>
                 <ul id='progress'>
-                  
-                    <li className={'node' + ' ' + 'green'}>
+
+                  <li className={'node' + ' ' + 'green'}>
                     <a href='#holistic-approach'><p> Holistic Approach</p></a>
-                    </li>
-                  
+                  </li>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#local-app' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>Global Outlook, Local Application</p>
                     </li>
                   </a>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#recognizing' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>Recognizing That Every Child is Unique</p>
                     </li>
                   </a>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#century' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>21st Century Ready Infrastructure</p>
                     </li>
                   </a>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#talentedFaculty' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>Talented Faculty</p>
                     </li>
                   </a>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>Rich Curriculum</p>
                     </li>
                   </a>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>Window to the World</p>
                     </li>
                   </a>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>Technologically Wired for a Wireless World</p>
                     </li>
                   </a>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>A Smorgasbord of Co-Curricular Choices</p>
                     </li>
                   </a>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>Putting Community Engagement at the Forefront</p>
                     </li>
                   </a>
+
                   <li>
                     <div className={'divider' + ' ' + 'grey'}></div>
                   </li>
+
                   <a href='#' onClick={(e) => progressClick(e)}>
                     <li className={'node' + ' ' + 'grey'}>
                       <p>Preparing for Life Beyond School</p>
                     </li>
                   </a>
+
                 </ul>
                 <input
                   type='button'
