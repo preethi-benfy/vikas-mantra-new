@@ -139,7 +139,7 @@ const About = () => {
 
 
 
-            <section className={' py-5 d-block d-md-none'}>
+            <section className={' py-5 d-block d-lg-none '}>
 
                 <div className='container'>
 
