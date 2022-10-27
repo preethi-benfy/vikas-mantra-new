@@ -77,3 +77,34 @@
         padding: 0px;
     }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 990px) {
+   
+    .PrincipalImg {
+        position: unset;
+        height: 480px;
+    }
+    .vectorImg {
+        width: auto;
+        height: 125px;
+        position: absolute;
+        right: -30px;
+        top: 161px;
+        z-index: 1;
+        padding: 0;
+    }
+    .vectorImg1{
+        width: auto;
+        position: absolute;
+        left: -5px;
+        top: 300px;
+        height: 95px;
+    }
+    .vectorImg2 {
+        right: 0;
+        position: absolute;
+        bottom: -50px;
+        height: 100px;
+    }
+
+}
