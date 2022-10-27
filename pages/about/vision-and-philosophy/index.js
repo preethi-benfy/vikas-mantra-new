@@ -48,7 +48,7 @@ const VisionAndPhilosophy = () => {
 
                         </div>
 
-                        <div className='col-md-6 navTab'>
+                        <div className='col-md-6 navTab vision-1-Tab'>
 
                             <ul className="nav nav-tabs" id="myTab" role="tablist">
 
