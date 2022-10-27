@@ -13,7 +13,7 @@ const Admissions = () => {
             <style>
                 {`
             body {
-            background: #F5F5F5;
+            background: #f3f1f2;
             }
         `}
             </style>

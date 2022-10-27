@@ -92,10 +92,17 @@
         width: auto;
         height: 125px;
         position: absolute;
-        right: 0;
+        right: -30px;
         top: 161px;
         z-index: 1;
         padding: 0;
+    }
+    .vectorImg2{
+        width: auto;
+        position: absolute;
+        left: -5px;
+        top: 300px;
+        height: 95px;
     }
     .vectorImg7 {
         right: 0;
