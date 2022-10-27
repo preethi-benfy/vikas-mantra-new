@@ -6,7 +6,7 @@ import BlogDates from '../../../../components/BlogDates/BlogDates'
 const Blog1 = () => {
     return (
         <>
-            <section className='pt-4'>
+            <section className='pt-4 VectorLogo'>
 
                 <div className='container position-relative'>
 
@@ -28,8 +28,7 @@ const Blog1 = () => {
                         <div className='col-md-6'>
 
                             <h2>TEACHING ECO-FRIENDLY PRACTICES TO CHILDREN</h2>
-                            <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
-
+                    
                         </div>
 
                     </div>
@@ -140,9 +139,6 @@ const Blog1 = () => {
                         </div>
 
                         <BlogDates />
-
-
-
 
                     </div>
 

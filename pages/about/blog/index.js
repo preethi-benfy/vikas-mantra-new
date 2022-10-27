@@ -6,7 +6,7 @@ const Blog = () => {
 
     return (
         <>
-            <section className='pt-4'>
+            <section className='pt-4 VectorLogo'>
 
                 <div className='container position-relative'>
 
@@ -26,7 +26,6 @@ const Blog = () => {
                     <div className={styles.blogRow1 + 'row py-5'}>
 
                         <h2>Blog</h2>
-                        <img src='/assets/vectors/Vector.png' alt="image" className={styles.vectorImg1} />
 
                     </div>
 

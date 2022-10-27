@@ -131,6 +131,14 @@ p {
 .text-justify {
   text-align: justify;
 }
+.VectorLogo {
+  background-image: url(/assets/vectors/Vector.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: 999;
+  background-size: 110px;
+  position: relative;
+}
 
 
 
