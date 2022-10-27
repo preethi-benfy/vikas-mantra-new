@@ -49,12 +49,14 @@
         top: 0;
         z-index: 1;
     }
+
     .vectorImg8 {
         position: absolute;
         right: 0px;
         bottom: -36px;
         height: 100px;
     }
+
     .vectorImg5 {
         position: absolute;
         top: -60px;
@@ -62,10 +64,76 @@
         height: 71px;
         left: -20px;
     }
-    .rowPdng{
+
+    .rowPdng {
         padding: 0 !important;
     }
-    .staffImg{
+
+    .staffImg {
         width: 100%;
     }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+    .vectorImg {
+        width: auto;
+        height: 125px;
+        position: absolute;
+        right: -30px;
+        top: -6px;
+        z-index: 1;
+    }
+
+    .vectorImg5 {
+        position: absolute;
+        left: -50px;
+        top: -85px;
+        z-index: -1;
+        height: 80px;
+    }
+
+    .vectorImg8 {
+        position: absolute;
+        right: -30px;
+        bottom: 0;
+        height: 120px;
+    }
+
+    .staffImg {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .vectorImg {
+        width: auto;
+        height: 125px;
+        position: absolute;
+        right: -30px;
+        top: -6px;
+        z-index: 1;
+    }
+
+    .vectorImg5 {
+        position: absolute;
+        left: -50px;
+        top: -85px;
+        z-index: -1;
+        height: 80px;
+    }
+
+    .vectorImg8 {
+        position: absolute;
+        right: -30px;
+        bottom: 0;
+        height: 120px;
+    }
+
+    .staffImg {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    
 }

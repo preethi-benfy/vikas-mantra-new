@@ -43,9 +43,9 @@ const MessageFromPrincipal = () => {
 
                 <div className='container'>
 
-                    <div className='row py-5 align-items-center '>
+                    <div className='row py-5 align-items-center'>
 
-                        <div className='col-md-6'>
+                        <div className='col-sm-12 col-md-12 col-lg-6 col-xl-6'>
 
                             <img src='/assets/vectors/Vector1.png' alt ="image" className={styles.vectorImg1} />
 
@@ -85,7 +85,7 @@ const MessageFromPrincipal = () => {
 
                         </div>  
 
-                        <div className='col-md-6 position-relative'>
+                        <div className='col-sm-12 col-md-12 col-lg-6 col-xl-6 position-relative'>
 
                             <img src='/assets/banners/principal.png' alt ="image" className={styles.PrincipalImg} />
 
