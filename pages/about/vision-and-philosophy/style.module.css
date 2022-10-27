@@ -146,7 +146,8 @@
         height: 100px;
         top: 610px;
     }
-    .vectorImg6{
+
+    .vectorImg6 {
         position: absolute;
         bottom: 4px;
         height: 73px;
@@ -165,5 +166,54 @@
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 25px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 990px) {
+    .vmpsImg {
+        position: absolute;
+        bottom: 15px;
+        right: 0px;
+        height: 35px;
+    }
+
+    .vectorImg1 {
+        width: auto;
+        height: 125px;
+        position: absolute;
+        right: -30px;
+        top: 240px;
+        z-index: 1;
+        padding: 0;
+    }
+
+    .schoolBuildingImg {
+        width: 100%;
+        position: unset;
+        padding-bottom: 60px;
+    }
+    .sectionPdng{
+        padding-bottom: 0px;
+    }
+    .vectorImg5{
+        position: absolute;
+        height: 90px;
+        bottom: -45px;
+        left: -55px;
+    }
+    .vectorImg3 {
+        position: absolute;
+        left: -48px;
+        top: 475px;
+        height: 100px;
+    }
+    .colpdngRt , .colpdngLt {
+        padding: 20px 20px;
+    }
+    .vectorImg6 {
+        position: absolute;
+        right: 0px;
+        bottom: -29px;
+        height: 80px;
     }
 }
