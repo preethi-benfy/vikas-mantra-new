@@ -146,7 +146,7 @@ function Learning() {
               </div>
             </div>
 
-            <div className={'col-md-6'}>
+            <div className={'col-md-6 learningLogo'}>
               <div className='imgUp'>
                 <img
                   src='/assets/school-building.png'

@@ -60,7 +60,7 @@ export default function index() {
 
                     <div className='row'>
 
-                        <div className={'col-md-10' + ' ' + styles.formCenter}>
+                        <div className={'col-md-10 col-xs-12 col-sm-12' + ' ' + styles.formCenter}>
 
                             <div className={styles.enquiryForm}>
 
@@ -136,7 +136,7 @@ export default function index() {
 
                                                     <div className='row'>
 
-                                                        <div className='col-md-6'>
+                                                        <div className='col-md-6 mb-5'>
 
                                                             <label>Phone Number</label>
 
@@ -144,7 +144,7 @@ export default function index() {
 
                                                         </div>
 
-                                                        <div className='col-md-6'>
+                                                        <div className='col-md-6 mb-5'>
 
                                                             <label>Email</label>
 
@@ -178,7 +178,7 @@ export default function index() {
 
                                                     <div className='row'>
 
-                                                        <div className='col-md-6'>
+                                                        <div className='col-md-6 mb-5'>
 
                                                             <label>Phone Number</label>
 
@@ -186,7 +186,7 @@ export default function index() {
 
                                                         </div>
 
-                                                        <div className='col-md-6'>
+                                                        <div className='col-md-6 mb-5'>
 
                                                             <label>Email</label>
 
