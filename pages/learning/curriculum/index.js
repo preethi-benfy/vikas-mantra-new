@@ -4,8 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 
-
-function Learning() {
+function Curriculum() {
 
   function progressClick(e) {
     const progressLink = e.target.closest('li')
@@ -250,4 +249,4 @@ function Learning() {
     </>
   )
 }
-export default Learning
+export default Curriculum
