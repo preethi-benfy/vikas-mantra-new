@@ -72,7 +72,7 @@ const OurTeam = () => {
 
                             return (
 
-                                <div className='col-md-4 py-2' key={i}>
+                                <div className=' col-sm-6 col-md-6 col-lg-4 py-2' key={i}>
 
                                     <img src={item.staffImage} alt ='image' className={styles.staffImg} />
 
