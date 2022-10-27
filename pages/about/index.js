@@ -77,7 +77,7 @@ const About = () => {
 
             </section>
 
-            <section className={styles.bannerSection + ' py-5'}>
+            <section className={styles.bannerSection + ' py-5 d-none d-lg-flex'}>
 
                 <div className='container'>
 
@@ -139,7 +139,7 @@ const About = () => {
 
 
 
-            <section className={' py-5 d-block d-md-none'}>
+            <section className={' py-5 d-block d-lg-none '}>
 
                 <div className='container'>
 

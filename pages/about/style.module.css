@@ -149,7 +149,39 @@
         width: 100%;
     }
 
-    .bannerSection {
+    /* .bannerSection {
         display: none;
+    } */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 990px)  {
+    .schoolBuildingImg {
+        width: 100%;
+        position: unset;
     }
+    .vectorImg1 {
+        width: auto;
+        height: 125px;
+        position: absolute;
+        right: -60px;
+        top: 241px;
+        padding: 0;
+    }
+    .vectorImg4 {
+        position: absolute;
+        right: -60px;
+        bottom: 210px;
+        height: 100px;
+    }
+    .vmpsImg {
+        position: absolute;
+        right: 0px;
+        bottom: -930px;
+        z-index: 1;
+        height: 40px;
+    }
+    /* .bannerSection {
+        display: none;
+    } */
+
 }
