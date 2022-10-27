@@ -59,3 +59,12 @@ top: -200px;
     background-position: top left;
     background-repeat: no-repeat;
     z-index: -1;}
+
+
+@media only screen and (max-width: 660px){
+
+
+    .mdBg::after{left: 0;}
+
+    .mdBg::before{z-index: -1;}
+}
