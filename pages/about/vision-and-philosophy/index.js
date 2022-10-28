@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import styles from './style.module.css'
+
 const VisionAndPhilosophy = () => {
     return (
         <>
@@ -47,7 +48,7 @@ const VisionAndPhilosophy = () => {
 
                             <img src='/assets/banners/school-building.png' alt="image" className={styles.schoolBuildingImg} />
 
-                            <img src='/assets/VMPs.png' alt="image" className={styles.vmpsImg} />
+                            <img src='/assets/VMPS.png' alt="image" className={styles.vmpsImg} />
 
                         </div>
 

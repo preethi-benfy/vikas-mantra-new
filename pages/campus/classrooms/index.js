@@ -5,13 +5,13 @@ import styles from './style.module.css'
 const Classrooms = () => {
     return (
         <>
-            <section className='pt-5 VectorLogo'>
+            <section className='pt-5'>
 
                 <div className='container position-relative'>
 
                     <div className='row'>
 
-                        <div className='col-md-12'>
+                        <div className='col-md-12 '>
                             <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
                             |
                             <a className='mx-2'>Campus</a>
