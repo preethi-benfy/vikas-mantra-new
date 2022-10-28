@@ -143,16 +143,29 @@ p {
 
 .VectorLogo::after {
   content: '';
+    position: absolute;
+    background-image: url(/assets/vectors/Vector.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: 1;
+    background-size: 110px;
+    height: 337px;
+    right: 0;
+    width: 210px;
+}
+
+.VectorSpiralLeft::before {
+  content: '';
   position: absolute;
-  top: 0;
-  background-image: url(/assets/vectors/Vector.png);
+  background-image: url(/assets/vectors/vector12.png);
   background-repeat: no-repeat;
   background-position: top right;
-  z-index: 999;
+  z-index: 1;
   background-size: 110px;
-  position: relative;
-  height: 337px;
-  width: 210px;
+  height: 228px;
+  left: 0;
+  width: 114px;
+  bottom: -45%;
 }
 
 

@@ -8,19 +8,6 @@
 
 .schoolLogo{position: relative;}
 
-.schoolLogo::after {
-    content: "";
-    position: absolute;
-    top: 140px;
-    right: 576px;
-    width: 100%;
-    height: 100%;
-    background: url(/assets/vectors/vector12.png);
-    background-size: 142px;
-    background-position: top left;
-    background-repeat: no-repeat;
-    z-index: 1;}
-
 .eqBg{position: relative;}
 
 .eqBg::after {

@@ -17,7 +17,7 @@ export default function index() {
 
     `}</style>
 
-            <section className='pt-4 VectorLogo'>
+            <section className='pt-4 VectorLogo VectorSpiralLeft'>
 
                 <div className='container position-relative'>
 
