@@ -1,34 +1,18 @@
 import React from 'react'
 import styles from "./style.module.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Breadcrumb from '../../components/Breadcrumb/Breadcrumb'
 
 function Career() {
 
+    const pageTitle = 'Career'
+
   return (
     <>
-    <section className='pt-4 VectorLogo'>
 
-        <div className='container position-relative'>
-
-            <div className='row'>
-
-                <div className='col-md-12'>
-
-                    <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                    |
-                    <a className='mx-2'>Careers</a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+    <Breadcrumb pageName={pageTitle} />
 
     <section className={'pt60' + ' ' + 'pb60'}>
 
@@ -110,7 +94,7 @@ function Career() {
 
     </section>
 
-    <section className={'greybg' + ' ' + 'pt60' + ' ' + 'pb60'}>
+    <section className={'greybg VectorSpiralBlue position-relative' + ' ' + 'pt60' + ' ' + 'pb60'}>
 
         <div className='container'>
 

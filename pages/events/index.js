@@ -1,36 +1,21 @@
 import React from 'react'
 import styles from "./style.module.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css'
 import Nav from 'react-bootstrap/Nav';
 import Tab from 'react-bootstrap/Tab';
+import Breadcrumb from '../../components/Breadcrumb/Breadcrumb'
+
 
 function index() {
+
+    const pageTitle = 'Events'
+
   return (
     <>
 
-    <section className='pt-4 VectorLogo'>
-
-        <div className='container position-relative'>
-
-            <div className='row'>
-
-                <div className='col-md-12'>
-
-                    <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                    |
-                    <a className='mx-2'>Events</a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+   <Breadcrumb pageName={pageTitle} />
 
     <section className={'pt60'}>
 
@@ -118,7 +103,7 @@ function index() {
 
                 </section>
 
-                <section className={'greybg' + ' ' + 'pt60' + ' ' + 'pb60' + ' ' + styles.eventGallery}>
+                <section className={'greybg VectorSpiralBlue' + ' ' + 'pt60' + ' ' + 'pb60' + ' ' + styles.eventGallery}>
 
                 <div className='container'>
 

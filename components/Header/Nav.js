@@ -3,10 +3,8 @@ import { useRouter } from 'next/router'
 import Button from 'react-bootstrap/Button'
 import styles from './style.module.css'
 import Link from 'next/link'
-<<<<<<< Updated upstream
 import MobileNav from './MobileNav'
-=======
->>>>>>> Stashed changes
+
 
 const Nav = () => {
   const { asPath } = useRouter()
@@ -18,11 +16,7 @@ const Nav = () => {
       <header className={styles.homeheader + ' ' + pageName}>
         <nav className={styles.navTransparent + ' navbar-expand-lg navbar'}>
           <div className='container'>
-<<<<<<< Updated upstream
-            <a className={styles.mainLogo + ' ' + 'navbar-brand'} href='#'>
-=======
             <a className={styles.mainLogo + ' ' + 'navbar-brand'} href='/'>
->>>>>>> Stashed changes
               {pageName === 'home' ? (
                 <img src='/assets/vmps-white-logo.png' alt='image' />
               ) : (
@@ -71,11 +65,7 @@ const Nav = () => {
             </button>
 
             <div
-<<<<<<< Updated upstream
               className='collapse navbar-collapse desktop-menu'
-=======
-              className='collapse navbar-collapse'
->>>>>>> Stashed changes
               id='navbarSupportedContent'
             >
               <ul className='navbar-nav mb-2 mb-lg-0'>

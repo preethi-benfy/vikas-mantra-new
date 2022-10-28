@@ -31,13 +31,14 @@ export default function index() {
               <img src='/assets/building-transport.png' alt='image' />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className='VectorDot'>
+        <div className='container'>
 
           <div className='row '>
-            <div
-              className={
-                'col-md-10 col-xs-12 col-sm-12' + ' ' + styles.formCenter
-              }
-            >
+            <div className={'col-md-10 col-xs-12 col-sm-12' + ' ' + styles.formCenter}>
               <div className={styles.enquiryForm}>
                 <div className={'row' + ' ' + styles.form}>
                   <div className='col-md-5'>

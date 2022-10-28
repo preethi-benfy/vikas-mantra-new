@@ -1,30 +1,15 @@
 import React from 'react'
 import styles from "./style.module.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 function OnlineClasses() {
+
+    const pageTitle = 'Learning'
+
   return (
     <>
 
-<section className='pt-4'>
-
-<div className='container position-relative'>
-
-    <div className='row'>
-
-        <div className='col-md-12'>
-            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-            |
-            <a className='mx-2'>Learning</a>
-           
-        </div>
-
-    </div>
-
-</div>
-
-</section>
+<Breadcrumb pageName={pageTitle} />
 
 <section className={'pt60' + ' ' + 'pb60'}>
 
@@ -45,7 +30,7 @@ function OnlineClasses() {
 </section>
 
 
-<section className={'greybg' + ' ' + 'pt60' + ' ' + 'pb60' + ' ' + 'bglogo'}>
+<section className={'greybg' + ' ' + 'pt60' + ' ' + 'pb60' + ' ' + 'bglogo VectorSpiral'}>
 
     <div className='container'>
 
