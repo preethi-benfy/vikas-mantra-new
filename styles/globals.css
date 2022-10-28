@@ -132,13 +132,27 @@ p {
   text-align: justify;
 }
 
-.VectorLogo {
+/* .VectorLogo {
   background-image: url(/assets/vectors/Vector.png);
   background-repeat: no-repeat;
   background-position: top right;
   z-index: 999;
   background-size: 110px;
   position: relative;
+} */
+
+.VectorLogo::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  background-image: url(/assets/vectors/Vector.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: 999;
+  background-size: 110px;
+  position: relative;
+  height: 337px;
+  width: 210px;
 }
 
 
