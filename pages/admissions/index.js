@@ -1,11 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import { faCaretLeft } from '@fortawesome/free-solid-svg-icons'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import { faMinus } from '@fortawesome/free-solid-svg-icons'
 import styles from './style.module.css'
+import Breadcrumb from '../../components/Breadcrumb/Breadcrumb'
 
 const Admissions = () => {
+
+    const pageTitle ='Admissions'
 
     return (
 
@@ -17,20 +19,12 @@ const Admissions = () => {
             }
         `}
             </style>
-            <section className='pt-4 greybg VectorLogo'>
+
+            <Breadcrumb pageName={pageTitle} />
+
+            <section className='pt-4 greybg'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>Admissions</a>
-                        </div>
-
-
-                    </div>
 
                     <div className='row py-5'>
 
@@ -512,6 +506,7 @@ const Admissions = () => {
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingTwo">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -524,6 +519,7 @@ const Admissions = () => {
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div className="accordion-item">
                                             <h2 className="accordion-header" id="headingThree">
                                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">

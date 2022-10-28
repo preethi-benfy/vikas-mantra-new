@@ -1,24 +1,19 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 import styles from './style.module.css'
 
 const Transportation = () => {
+
+    const pageTitle = 'Campus'
+
     return (
+
         <>
-            <section className='pt-5 VectorLogo'>
+
+            <Breadcrumb pageName={pageTitle} />
+
+            <section className='pt-4'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>Campus</a>
-                        </div>
-
-
-                    </div>
 
                     <div className='row py-5'>
 
@@ -50,13 +45,13 @@ const Transportation = () => {
                                 on distances between the school and the student’s pick-up/drop-off point.
                             </p>
 
-                            <img src='/assets/vectors/Vector11.png' alt ="image" className={styles.vectorImg11} />
+                            <img src='/assets/vectors/Vector11.png' alt="image" className={styles.vectorImg11} />
 
                         </div>
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/school-bus.png' alt ="image" className={styles.schlBusImg} />
+                            <img src='/assets/campus/school-bus.png' alt="image" className={styles.schlBusImg} />
 
                         </div>
 

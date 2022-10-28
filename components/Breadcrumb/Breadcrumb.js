@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import styles from './style.module.css'
 
+
 const Breadcrumb = ({ pageName }) => {
   return (
     <>
@@ -16,7 +17,9 @@ const Breadcrumb = ({ pageName }) => {
                 icon={faHouse}
                 className={styles.homeIcon}
               />
-              |<a className='mx-2'>{pageName}</a>
+              |
+              <a className='mx-2'>{pageName}</a>
+              
             </div>
           </div>
         </div>

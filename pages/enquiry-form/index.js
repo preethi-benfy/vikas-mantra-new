@@ -5,7 +5,8 @@ import Form from 'react-bootstrap/Form'
 import Breadcrumb from '../../components/Breadcrumb/Breadcrumb'
 
 export default function index() {
-  const pageTitle = 'Enquiry Form'
+  
+  const pageTitle = 'Enquiry Form';
   return (
     <>
       <style>{`

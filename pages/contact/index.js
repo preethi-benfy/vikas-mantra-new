@@ -1,23 +1,19 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import styles from './style.module.css'
+import Breadcrumb from '../../components/Breadcrumb/Breadcrumb'
 
 const Contact = () => {
+
+    const pageTitle='Contact'
+
     return (
+
         <>
-            <section className='pt-5 VectorLogo'>
+
+            <Breadcrumb pageName={pageTitle} />
+
+            <section className='pt-5'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>Contact</a>
-                        </div>
-
-                    </div>
 
                     <div className='row py-5'>
 
@@ -43,7 +39,7 @@ const Contact = () => {
                         <div className='col-md-7 position-relative'>
 
                             <img
-                                src='assets/campus/school-building3.png' alt ="image"
+                                src='assets/campus/school-building3.png' alt="image"
                                 className={styles.schlBusImg}
                             />
 
@@ -57,9 +53,9 @@ const Contact = () => {
 
                             <div className='position-relative'>
 
-                                <img src='/assets/vectors/vector13.png' alt ="image" className={styles.vectorImg13} />
+                                <img src='/assets/vectors/vector13.png' alt="image" className={styles.vectorImg13} />
 
-                                <img src='/assets/icons/mail.png' alt ="image" className={styles.iconsImg} />
+                                <img src='/assets/icons/mail.png' alt="image" className={styles.iconsImg} />
 
                                 <h4 className='py-4'>Postal address</h4>
 
@@ -77,7 +73,7 @@ const Contact = () => {
 
                         <div className='col-md-4'>
 
-                            <img src='/assets/icons/call.png' alt ="image" className={styles.iconsImg} />
+                            <img src='/assets/icons/call.png' alt="image" className={styles.iconsImg} />
 
                             <h4 className='py-4'>Phone & Email</h4>
 
@@ -93,7 +89,7 @@ const Contact = () => {
 
                         <div className='col-md-4 position-relative'>
 
-                            <img src='/assets/icons/time.png' alt ="image" className={styles.iconsImg} />
+                            <img src='/assets/icons/time.png' alt="image" className={styles.iconsImg} />
 
                             <h4 className='py-4'>Office hours</h4>
 
@@ -107,7 +103,7 @@ const Contact = () => {
 
                             </div>
 
-                            <img src='/assets/vectors/vector10.png' alt ="image" className={styles.vectorImg10} />
+                            <img src='/assets/vectors/vector10.png' alt="image" className={styles.vectorImg10} />
 
                         </div>
 

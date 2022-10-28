@@ -1,24 +1,19 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 import styles from './style.module.css'
 
 const Laboratory = () => {
+
+    const pageTitle = 'Campus'
+
     return (
+
         <>
-            <section className='pt-5 VectorLogo'>
+
+            <Breadcrumb pageName={pageTitle} />
+
+            <section className='pt-4'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>Campus</a>
-                        </div>
-
-
-                    </div>
 
                     <div className='row py-5'>
 
@@ -55,19 +50,19 @@ const Laboratory = () => {
 
                         <div className='col-md-6 position-relative offset-md-1'>
 
-                            <img src='/assets/campus/lab1.png' alt ="image" className={styles.labImg1} />
+                            <img src='/assets/campus/lab1.png' alt="image" className={styles.labImg1} />
 
-                            <img src='/assets/vectors/Vector5.png' alt ="image" className={styles.vectorImg5} />
+                            <img src='/assets/vectors/Vector5.png' alt="image" className={styles.vectorImg5} />
 
                         </div>
 
                     </div>
 
-                    <div className={ styles.sectionPdng+ ' row align-items-center'}>
+                    <div className={styles.sectionPdng + ' row align-items-center'}>
 
-                        <div className={ styles.order2 + ' col-md-6 offset-md-1 position-relative' }>
+                        <div className={styles.order2 + ' col-md-6 offset-md-1 position-relative'}>
 
-                            <img src='/assets/campus/lab2.png' alt ="image" className={styles.labImg2} />
+                            <img src='/assets/campus/lab2.png' alt="image" className={styles.labImg2} />
 
                         </div>
 
@@ -96,7 +91,7 @@ const Laboratory = () => {
 
                         <div className='col-md-5'>
 
-                        <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.vectorImg10} />
+                            <img src='/assets/vectors/Vector10.png' alt="image" className={styles.vectorImg10} />
 
                             <h3>Art Labs
                             </h3>
@@ -113,7 +108,7 @@ const Laboratory = () => {
 
                         <div className='col-md-6 position-relative offset-md-1'>
 
-                            <img src='/assets/campus/lab3.png' alt ="image" className={styles.labImg3} />
+                            <img src='/assets/campus/lab3.png' alt="image" className={styles.labImg3} />
 
                         </div>
 
