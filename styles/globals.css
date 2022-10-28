@@ -592,6 +592,7 @@ p {
   position: relative;
   width: 100%;
   background-color: black;
+  height: 100%;
   overflow: hidden;
   display: flow-root;
 }
@@ -662,7 +663,13 @@ p {
 
   .desktop-menu{display: none;}
 
-  .mob-menu{display: block;}
+  .mob-menu{
+    display: block;
+    height: 500px;
+    z-index: 9999;
+    position: relative;
+    width: 100%;
+  }
 
 }
 

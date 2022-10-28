@@ -1,27 +1,36 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 
 const MobileNav = () => {
+  const [li, setLi] = [
+    '<li class="nav__item"><a class="nav__link sub__close" href="#"><i class="fas fa-chevron-left"></i>Back</a></li>',
+  ]
+
   function navLink(e) {
     e.preventDefault()
-    const sibling = e.target.nextSibling
-    console.log(sibling)
+    const sibling = e.target.nextElementSibling
+    sibling.classList.add('is-active')
+    const navSub = document.getElementsByClassName('nav__sub')
+    navSub[0].innerHTML += li
+    console.log(navSub)
+    s()
+  }
+
+  function s() {
+    const x = document.querySelector('.sub__close')
+    x.addEventListener('click', function () {
+      this.parentElement.parentElement.classList.remove('is-active')
+      console.log(this.parentElement.parentElement)
+    })
+  }
+
+  function subClose(e) {
+    console.log('ii')
   }
   useEffect(() => {
-    // $('.nav__sub').prepend(
-    //   '<li class="nav__item"><a class="nav__link sub__close" href="#"><i class="fas fa-chevron-left"></i> Back</a></li>'
-    // )
     // $('.sub__close').click(function (e) {
     //   e.preventDefault()
     //   $(this).parent().parent().removeClass('is-active')
-    // })
-    // $('.nav__link').click(function (e) {
-    //   e.preventDefault()
-    //   $(this).siblings().addClass('is-active')
-    // })
-    // const navLink = document.querySelector('.nav__link')
-    // navLink.addEventListener('click', function () {
-    //   console.log('hi')
     // })
   })
 
@@ -31,11 +40,7 @@ const MobileNav = () => {
         <ul className='nav'>
           <li className='nav__item'>
             <Link href='/home' legacyBehavior>
-              <a
-                className='nav__link'
-                aria-current='page'
-                onClick={(e) => navLink(e)}
-              >
+              <a className='nav__link' aria-current='page'>
                 Home
               </a>
             </Link>
@@ -49,16 +54,12 @@ const MobileNav = () => {
             <ul className='nav__sub'>
               <li className='nav__item'>
                 <Link href='#' legacyBehavior>
-                  <a className='nav__link' onClick={(e) => navLink(e)}>
-                    About Vikas Mantra
-                  </a>
+                  <a className='nav__link'>About Vikas Mantra</a>
                 </Link>
               </li>
               <li className='nav__item'>
                 <Link href='#' legacyBehavior>
-                  <a className='nav__link' onClick={(e) => navLink(e)}>
-                    Our Vision & Philosophy
-                  </a>
+                  <a className='nav__link'>Our Vision & Philosophy</a>
                 </Link>
               </li>
 
