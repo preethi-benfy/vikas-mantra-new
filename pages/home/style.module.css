@@ -7,7 +7,6 @@
     position: relative;
     display: flex;
     align-items: end;
-    height: 140vh;
 }
 
 .bannerSection::after {
@@ -64,13 +63,11 @@
     background: rgba(194, 38, 59, 0.6);
 }
 
-<<<<<<< HEAD
 .welcomeSection h2,
 .welcomeSection p,
 .welcomeSection h4 {
     color: #fff;
 }
-=======
 .welcomeSection::before{content: "";
     position: absolute;
     top: 0;
@@ -83,11 +80,11 @@
     z-index: 1;}
 
 .welcomeSection h2, .welcomeSection p, .welcomeSection h4{color: #fff;}
->>>>>>> 9d7b10436d6a31894c856c02afbed5e5f23d9740
 
 .vkApproch img {
     width: 65px;
     margin-bottom: 25px;
+    height: auto;
 }
 
 .borderLeft::before {
@@ -101,11 +98,6 @@
     left: -25px;
 }
 
-<<<<<<< HEAD
-.borderLeft {
-    position: relative;
-}
-=======
 .borderLeft{position: relative;}
 
 .hrline{color: rgba(250, 93, 126, 1);opacity: 1;}

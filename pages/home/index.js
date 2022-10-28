@@ -3,8 +3,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import styles from './style.module.css'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css'
-import LazyLoad from 'react-lazyload';
-
+import LazyLoad from 'react-lazyload'
 
 function Home() {
   return (
@@ -59,7 +58,11 @@ function Home() {
 
             <div className='col-md-6'>
               <LazyLoad height={200}>
-                <img src='/assets/home-abt-vmps.png' alt="image" className='img-fluid' />
+                <img
+                  src='/assets/home-abt-vmps.png'
+                  alt='image'
+                  className='img-fluid'
+                />
               </LazyLoad>
             </div>
           </div>
@@ -82,9 +85,13 @@ function Home() {
 
           <div className={'row' + ' ' + 'pt60' + ' ' + styles.vkApproch}>
             <div className={'z1' + ' ' + 'col-md-3'}>
-
               <LazyLoad height={200}>
-                <img src='/assets/icons/holistic-approach.png' alt="image"></img>
+                <img
+                  width='81'
+                  height='74'
+                  src='/assets/icons/holistic-approach.png'
+                  alt='image'
+                ></img>
               </LazyLoad>
 
               <h4>Holistic Approach</h4>
@@ -96,9 +103,13 @@ function Home() {
             </div>
 
             <div className={'z1' + ' ' + 'col-md-3'}>
-
               <LazyLoad height={200}>
-                <img src='/assets/icons/holistic-approach.png' alt="image"></img>
+                <img
+                  width='81'
+                  height='74'
+                  src='/assets/icons/holistic-approach.png'
+                  alt='image'
+                ></img>
               </LazyLoad>
 
               <div className={styles.borderLeft}>
@@ -113,9 +124,13 @@ function Home() {
             </div>
 
             <div className={'z1' + ' ' + 'col-md-3'}>
-
               <LazyLoad height={200}>
-                <img src='/assets/icons/holistic-approach.png' alt="image"></img>
+                <img
+                  width='81'
+                  height='74'
+                  src='/assets/icons/holistic-approach.png'
+                  alt='image'
+                ></img>
               </LazyLoad>
 
               <div className={styles.borderLeft}>
@@ -130,9 +145,13 @@ function Home() {
             </div>
 
             <div className={'z1' + ' ' + 'col-md-3'}>
-
               <LazyLoad height={200}>
-                <img src='/assets/icons/holistic-approach.png' alt="image"></img>
+                <img
+                  width='81'
+                  height='74'
+                  src='/assets/icons/holistic-approach.png'
+                  alt='image'
+                ></img>
               </LazyLoad>
 
               <div className={styles.borderLeft}>
@@ -196,14 +215,13 @@ function Home() {
                         styles.vslideimage + ' ' + 'col-md-6 offset-md-2'
                       }
                     >
-
                       <LazyLoad height={200}>
                         <img
-                          src='/assets/home-happy-face.png' alt="image"
+                          src='/assets/home-happy-face.png'
+                          alt='image'
                           className='img-fluid'
                         ></img>
                       </LazyLoad>
-
                     </div>
                   </div>
                 </SplideSlide>
@@ -243,11 +261,9 @@ function Home() {
                 <SplideSlide>
                   <div className={styles.testimonialcard}>
                     <div>
-
                       <LazyLoad height={200}>
-                        <img src='/assets/rectangle.png' alt="image" />
+                        <img src='/assets/rectangle.png' alt='image' />
                       </LazyLoad>
-
                     </div>
 
                     <div className={styles.testimonialcontent}>
@@ -268,11 +284,9 @@ function Home() {
                 <SplideSlide>
                   <div className={styles.testimonialcard}>
                     <div>
-
                       <LazyLoad height={200}>
-                        <img src='/assets/rectangle.png' alt="image" />
+                        <img src='/assets/rectangle.png' alt='image' />
                       </LazyLoad>
-
                     </div>
 
                     <div className={styles.testimonialcontent}>
@@ -298,4 +312,4 @@ function Home() {
   )
 }
 
-export default Home;
+export default Home
