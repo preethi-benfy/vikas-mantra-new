@@ -11,6 +11,8 @@ const Nav = () => {
 
   var pageName = asPath.replace('/', "")
 
+  
+
   return (
 
     <>
@@ -28,6 +30,7 @@ const Nav = () => {
               }
 
             </a>
+
             <button
               className="navbar-toggler"
               type="button"
@@ -67,8 +70,7 @@ const Nav = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div
-              className="collapse navbar-collapse"
+            <div className="collapse navbar-collapse desktop-menu"
               id="navbarSupportedContent"
             >
 
@@ -283,6 +285,70 @@ const Nav = () => {
 
               </ul>
             </div>
+
+            <div className='mob-menu'>
+
+              <ul className="nav">
+                <li className="nav__item">
+                  <Link href="/home" legacyBehavior>
+                      <a className="nav__link" aria-current="page">Home</a>
+                  </Link>
+                </li>
+                <li className="nav__item">
+                  <Link href="#" legacyBehavior>
+                  <a className="nav__link">About <i className="fas fa-chevron-right"></i></a>
+                  </Link>
+                  <ul className="nav__sub">
+                    <li className="nav__item">
+                      <Link href="#" legacyBehavior>
+                      <a className="nav__link">About Vikas Mantra</a>
+                      </Link>
+                    </li>
+                    <li className="nav__item">
+                      <Link href="#" legacyBehavior>
+                      <a className="nav__link">Our Vision & Philosophy</a>
+                      </Link>
+                    </li>
+
+                    <li className="nav__item">
+                      <Link href="#" legacyBehavior>
+                      <a className="nav__link">Chairman’s Message</a>
+                      </Link>
+                    </li>
+
+                    <li className="nav__item">
+                      <Link href="#" legacyBehavior>
+                      <a className="nav__link">Principal’s Message</a>
+                      </Link>
+                    </li>
+
+                    <li className="nav__item">
+                      <Link href="#" legacyBehavior>
+                      <a className="nav__link">Our Team</a>
+                      </Link>
+                    </li>
+
+                    <li className="nav__item">
+                      <Link href="#" legacyBehavior>
+                      <a className="nav__link">Blog</a>
+                      </Link>
+                    </li>
+
+                  </ul>
+                </li>
+                <li className="nav__item">
+                  <a className="nav__link" href="#">La Liga</a>
+                </li>
+                <li className="nav__item">
+                  <a className="nav__link" href="#">Serie A</a>
+                </li>
+                <li className="nav__item">
+                  <a className="nav__link" href="#">World Cup 2018</a>
+                </li>
+              </ul>
+
+            </div>
+
           </div>
         </nav>
 
