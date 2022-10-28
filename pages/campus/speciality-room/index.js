@@ -5,7 +5,7 @@ import styles from './style.module.css'
 const SpecialityRoom = () => {
     return (
         <>
-            <section className='pt-5'>
+            <section className='pt-5 VectorLogo'>
 
                 <div className='container position-relative'>
 
@@ -23,7 +23,6 @@ const SpecialityRoom = () => {
                     <div className='row py-5'>
 
                         <h2 className={styles.headingPdng}>Speciality Rooms</h2>
-                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 

@@ -21,7 +21,7 @@ const OurTeam = () => {
     return (
 
         <>
-            <section className='pt-4'>
+            <section className='pt-4 VectorLogo'>
 
                 <div className='container position-relative'>
 
@@ -43,8 +43,7 @@ const OurTeam = () => {
                         <div className='col-md-6'>
 
                             <h2>Message from Our Principal</h2>
-                            <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg} />
-
+        
                         </div>
 
                     </div>
@@ -74,7 +73,7 @@ const OurTeam = () => {
 
                                 <div className=' col-sm-6 col-md-6 col-lg-4 py-2' key={i}>
 
-                                    <img src={item.staffImage} alt ='image' className={styles.staffImg} />
+                                    <img src={item.staffImage} alt ='image' className={styles.staffImg + ' img-fluid'} />
 
                                     <h6 className='pt-4'>{item.heading}</h6>
 

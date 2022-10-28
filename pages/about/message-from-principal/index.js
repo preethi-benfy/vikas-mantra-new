@@ -6,7 +6,7 @@ const MessageFromPrincipal = () => {
     return (
 
         <>
-            <section className='pt-4'>
+            <section className='pt-4 VectorLogo'>
 
                 <div className='container position-relative'>
 
@@ -28,7 +28,6 @@ const MessageFromPrincipal = () => {
                         <div className='col-md-6'>
 
                             <h2>Message from Our Principal</h2>
-                            <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg} />
 
                         </div>
 

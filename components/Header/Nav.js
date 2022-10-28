@@ -133,7 +133,7 @@ const Nav = () => {
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/admissions" legacyBehavior>
+                  <Link legacyBehavior href="/admissions">
                     <a className="nav-link">Admissions</a>
                   </Link>
                 </li>
@@ -254,12 +254,6 @@ const Nav = () => {
                 <li className="nav-item">
                   <Link legacyBehavior href="/enquiry-form">
                     <a className="nav-link">Enquiry Form</a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link legacyBehavior href="/admissions">
-                    <a className="nav-link">Admissions</a>
                   </Link>
                 </li>
 

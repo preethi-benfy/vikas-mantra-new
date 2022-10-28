@@ -132,6 +132,15 @@ p {
   text-align: justify;
 }
 
+.VectorLogo {
+  background-image: url(/assets/vectors/Vector.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: 999;
+  background-size: 110px;
+  position: relative;
+}
+
 
 
 
@@ -417,6 +426,59 @@ p {
 }
 }
 
+.learningLogo .imgUp::before {
+  left: 73px;
+}
+
+
+@media only screen and (max-width: 660px) {
+  .m-pb40 {
+    padding-bottom: 40px;
+  }
+
+  .m-pt40 {
+    padding-top: 40px;
+  }
+
+  #progress li p {
+    width: 225px;
+    margin-left: 25px;
+  }
+
+  .imgUp::before,
+  .learningLogo .imgUp::before {
+    left: 11px;
+  }
+
+  #progress li p {
+    width: 480px;
+    margin-left: 25px;
+  }
+}
+
+
+.blue {
+  background-color: rgba(82, 165, 255, 1);
+}
+
+.green {
+  background-color: rgba(92, 184, 92, 1)
+}
+
+.red {
+  background-color: rgba(255, 148, 148, 1);
+}
+
+.grey {
+  background-color: rgba(201, 201, 201, 1);
+}
+
+.brownBtn {
+  background-color: #AA182C;
+  border-radius: 0;
+  border-color: #AA182C;
+}
+
 
 @media only screen and (max-width: 660px) {
   .m-pb40 {
@@ -443,9 +505,9 @@ p {
 }
 
 
-@media screen and (min-width: 661px) and (max-width: 768px){
+@media screen and (min-width: 661px) and (max-width: 768px) {
 
-  .imgUp img {margin-top: 0;}
-
-
+  .imgUp img {
+    margin-top: 0;
+  }
 }

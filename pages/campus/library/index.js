@@ -5,7 +5,7 @@ import styles from './style.module.css'
 const Library = () => {
     return (
         <>
-            <section className='pt-5'>
+            <section className='pt-5 VectorLogo'>
 
                 <div className='container position-relative'>
 
@@ -23,7 +23,6 @@ const Library = () => {
                     <div className='row py-5'>
 
                         <h2 className={styles.headingPdng}>Library</h2>
-                        <img src='/assets/vectors/Vector.png' alt ="image" className={styles.vectorImg1} />
 
                     </div>
 

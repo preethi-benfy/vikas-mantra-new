@@ -31,10 +31,11 @@
 }
 
 .ChairmanImg {
-    position: absolute;
     height: 480px;
-    top: -555px;
+    top: -300px;
     right: -104px;
+    z-index: 1;
+    position: relative;
 }
 
 .vectorImg7 {
