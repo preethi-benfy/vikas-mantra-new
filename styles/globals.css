@@ -149,18 +149,30 @@ p {
     width: 210px;
 }
 
-.VectorSpiralLeft::before {
+.VectorSpiral::before {
   content: '';
   position: absolute;
   background-image: url(/assets/vectors/vector12.png);
   background-repeat: no-repeat;
   background-position: top right;
-  z-index: 1;
+  z-index: -1;
   background-size: 110px;
   height: 228px;
-  left: 0;
   width: 114px;
-  bottom: -45%;
+}
+
+.insideContainer::before{
+  left: -6px;
+}
+
+.left-0::before {
+  left: 0;
+}
+.bottom-0::before {
+  bottom: 0;
+}
+.top-0:before {
+  top: 0;
 }
 
 .VectorDot::before {
