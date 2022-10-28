@@ -58,7 +58,7 @@ function Curriculum() {
   }, [])
   return (
     <>
-      <section className='pt-4'>
+      <section className='pt-4 VectorLogo'>
         <div className='container position-relative'>
           <div className='row'>
             <div className='col-md-12'>
@@ -78,7 +78,7 @@ function Curriculum() {
         </div>
       </section>
       <section
-        className={'greybg' + ' ' + 'pt60' + ' ' + 'pb60' + ' ' + 'bglogo'}
+        className={'greybg' + ' ' + 'pt60' + ' ' + 'pb60' + ' ' + 'bglogo VectorDot VectorSpiralCenter'}
       >
         <div className='container'>
           <div className='row'>
