@@ -11,6 +11,10 @@
     color: #fff;
 }
 
+.section *{
+    color: #fff;
+}
+
 .hrLine {
     height: 2px;
     color: #fff;

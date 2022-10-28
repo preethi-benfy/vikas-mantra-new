@@ -58,6 +58,12 @@
     width: 100%;
 }
 
+.bannerSection h1,
+.bannerSection h2,
+.bannerSection p{
+    color: #fff;
+}
+
 .bannerSection::after {
     content: "";
     position: absolute;
