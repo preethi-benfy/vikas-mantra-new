@@ -35,7 +35,7 @@ const Admissions = () => {
                     <div className='row py-5'>
 
                         <h2 className={styles.headingPdng}>Admissions</h2>
-                    
+
                     </div>
 
                 </div>
@@ -480,25 +480,103 @@ const Admissions = () => {
 
                                     <hr className={styles.hrLine} />
 
-                                    <h4 className='pt-3'><FontAwesomeIcon icon={faMinus} className={styles.minusIcon} />How do you make decision on admission?</h4>
 
-                                    <p className={styles.paraPdng}>Admission  decisions are made purely on first come first serve basis for lower classes.
-                                        It is also made on  merit, aptitude of the applicant, and involvement of parents
-                                        in the applicant’s education. Special consideration will be given to qualified applicants
-                                        who are siblings of alumni or students currently attending VIKAS MANTRA PUBLIC SCHOOL.
-                                    </p>
+                                    <div className="accordion" id="accordionExample">
 
-                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> Do you have a wait list?</h4>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="headingSeven">
+                                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                    <h4 className='pt-3'><FontAwesomeIcon icon={faMinus} className={styles.minusIcon} />How do you make decision on admission?</h4>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseSeven" className="accordion-collapse collapse show" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                                <div className="accordion-body">
+                                                    <p className={styles.paraPdng}>Admission  decisions are made purely on first come first serve basis for lower classes.
+                                                        It is also made on  merit, aptitude of the applicant, and involvement of parents
+                                                        in the applicant’s education. Special consideration will be given to qualified applicants
+                                                        who are siblings of alumni or students currently attending VIKAS MANTRA PUBLIC SCHOOL.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> How are students assessed?</h4>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="headingOne">
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> Do you have a wait list?</h4>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                <div className="accordion-body">
+                                                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="headingTwo">
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> How are students assessed?</h4>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                                <div className="accordion-body">
+                                                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="headingThree">
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> How are parents involved in the school community?</h4>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                <div className="accordion-body">
+                                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> How are parents involved in the school community?</h4>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="headingFour">
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> What is the student teacher ratio in each class?</h4>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                                <div className="accordion-body">
+                                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> What is the student teacher ratio in each class?</h4>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="headingFive">
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> How are parents involved in the school community?</h4>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                                <div className="accordion-body">
+                                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> Where are your teachers from? </h4>
+                                        <div className="accordion-item">
+                                            <h2 className="accordion-header" id="headingSix">
+                                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> What kind of training do you provide your teachers?</h4>
+                                                </button>
+                                            </h2>
+                                            <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                                <div className="accordion-body">
+                                                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                    <h4 className='pt-3'><FontAwesomeIcon icon={faPlus} className={styles.plusIcon} /> What kind of training do you provide your teachers?</h4>
 
                                     <img src='/assets/vectors/Vector11.png' alt="image" className={styles.Sec4vectorImg11} />
 
