@@ -132,13 +132,27 @@ p {
   text-align: justify;
 }
 
-.VectorLogo {
+/* .VectorLogo {
   background-image: url(/assets/vectors/Vector.png);
   background-repeat: no-repeat;
   background-position: top right;
   z-index: 999;
   background-size: 110px;
   position: relative;
+} */
+
+.VectorLogo::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  background-image: url(/assets/vectors/Vector.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: 999;
+  background-size: 110px;
+  position: relative;
+  height: 337px;
+  width: 210px;
 }
 
 
@@ -372,6 +386,31 @@ p {
   line-height: 25px;
 }
 
+#progress li p{width: 480px;margin-left: 25px;}
+
+
+.blue { background-color: rgba(82, 165, 255, 1); }
+.green{ background-color: rgba(92, 184, 92, 1) }
+.red { background-color: rgba(255, 148, 148, 1); }
+.grey { background-color: rgba(201, 201, 201, 1); }
+
+.brownBtn{background-color: #AA182C;border-radius: 0;border-color: #AA182C;}
+
+.learningLogo .imgUp::before{left: 73px;}
+
+
+@media only screen and (max-width: 660px){
+
+ .m-pb40{padding-bottom: 40px;}
+
+ .m-pt40{padding-top: 40px;}
+
+ #progress li p {
+  width: 225px;
+  margin-left: 25px;
+}
+
+.imgUp::before, .learningLogo .imgUp::before{left: 11px;}
 #progress li p {
   width: 480px;
   margin-left: 25px;
@@ -398,6 +437,7 @@ p {
   background-color: #AA182C;
   border-radius: 0;
   border-color: #AA182C;
+}
 }
 
 .learningLogo .imgUp::before {
