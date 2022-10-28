@@ -1,24 +1,19 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 import styles from './style.module.css'
 
 const Library = () => {
+
+    const pageTitle = 'Campus'
+
     return (
+
         <>
-            <section className='pt-5 VectorLogo'>
+
+            <Breadcrumb pageName={pageTitle} />
+            
+            <section className='pt-4'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>Campus</a>
-                        </div>
-
-
-                    </div>
 
                     <div className='row py-5'>
 
@@ -67,9 +62,9 @@ const Library = () => {
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/library.png' alt ="image" className={styles.libraryImg} />
+                            <img src='/assets/campus/library.png' alt="image" className={styles.libraryImg} />
 
-                            <img src='/assets/vectors/Vector5.png' alt ="image" className={styles.vectorImg5} />
+                            <img src='/assets/vectors/Vector5.png' alt="image" className={styles.vectorImg5} />
 
                         </div>
 
@@ -107,7 +102,7 @@ const Library = () => {
 
                             </ul>
 
-                            <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.vectorImg10} />
+                            <img src='/assets/vectors/Vector10.png' alt="image" className={styles.vectorImg10} />
 
                         </div>
 

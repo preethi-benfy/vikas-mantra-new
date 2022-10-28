@@ -1,27 +1,18 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import styles from './style.module.css'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
+
 const VisionAndPhilosophy = () => {
+
+    const pageTitle = 'About'
+
     return (
+
         <>
-            <section className='pt-4 VectorLogo'>
+            <Breadcrumb pageName={pageTitle} />
+
+            <section className='pt-4'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>About</a>
-                            |
-                            <a className='mx-2'>Our Vision And Philosophy</a>
-
-                        </div>
-
-
-                    </div>
 
                     <div className='row py-5'>
 
@@ -47,7 +38,7 @@ const VisionAndPhilosophy = () => {
 
                             <img src='/assets/banners/school-building.png' alt="image" className={styles.schoolBuildingImg} />
 
-                            <img src='/assets/VMPs.png' alt="image" className={styles.vmpsImg} />
+                            <img src='/assets/VMPS.png' alt="image" className={styles.vmpsImg} />
 
                         </div>
 

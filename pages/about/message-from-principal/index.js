@@ -1,27 +1,19 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import styles from './style.module.css'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const MessageFromPrincipal = () => {
+
+    const pageTitle='About'
+
     return (
 
         <>
-            <section className='pt-4 VectorLogo'>
+
+            <Breadcrumb pageName={pageTitle} />
+
+            <section className='pt-4'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>About</a>
-                            |
-                            <a className='mx-2'>Principal’s Message</a>
-                        </div>
-
-
-                    </div>
 
                     <div className={styles.blogRow1 + 'row py-5'}>
 
@@ -46,7 +38,7 @@ const MessageFromPrincipal = () => {
 
                         <div className='col-sm-12 col-md-12 col-lg-6 col-xl-6'>
 
-                            <img src='/assets/vectors/Vector1.png' alt ="image" className={styles.vectorImg1} />
+                            <img src='/assets/vectors/Vector1.png' alt="image" className={styles.vectorImg1} />
 
                             <h3>Dear all,</h3>
 
@@ -82,13 +74,13 @@ const MessageFromPrincipal = () => {
 
                             <h4>Mrs. Priyanka Ghosh Jesuraj</h4>
 
-                        </div>  
+                        </div>
 
                         <div className='col-sm-12 col-md-12 col-lg-6 col-xl-6 position-relative'>
 
-                            <img src='/assets/banners/principal.png' alt ="image" className={styles.PrincipalImg} />
+                            <img src='/assets/banners/principal.png' alt="image" className={styles.PrincipalImg} />
 
-                            <img src='/assets/vectors/Vector2.png' alt ="image" className={styles.vectorImg2} />
+                            <img src='/assets/vectors/Vector2.png' alt="image" className={styles.vectorImg2} />
 
                         </div>
 

@@ -1,30 +1,18 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import styles from './style.module.css'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 
 const MessageFromChairMan = () => {
+
+    const pageTitle ='About'
+
     return (
 
         <>
-            <section className=' pt-4 VectorLogo'>
+            <Breadcrumb pageName={pageTitle} />
 
-                {/* <img src='/assets/vectors/Vector.png' alt="image" className={styles.vectorImg1} /> */}
-
+            <section className='pt-4'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>About</a>
-                            |
-                            <a className='mx-2'>Chairman’s Message</a>
-                        </div>
-
-
-                    </div>
 
                     <div className={styles.blogRow1 + 'row py-5'}>
 

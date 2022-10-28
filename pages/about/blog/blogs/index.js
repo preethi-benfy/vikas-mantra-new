@@ -1,34 +1,25 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import styles from './style.module.css'
 import BlogDates from '../../../../components/BlogDates/BlogDates'
+import Breadcrumb from '../../../../components/Breadcrumb/Breadcrumb'
 
 const Blog1 = () => {
+
+    const pageTitle = 'About'
+    
     return (
         <>
-            <section className='pt-4 VectorLogo'>
+            <Breadcrumb pageName={pageTitle} />
+
+            <section className='pt-4'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>About</a>
-                            |
-                            <a className='mx-2'>Blog</a>
-                        </div>
-
-
-                    </div>
 
                     <div className={styles.blogRow1 + 'row py-5'}>
 
                         <div className='col-md-6'>
 
                             <h2>TEACHING ECO-FRIENDLY PRACTICES TO CHILDREN</h2>
-                    
+
                         </div>
 
                     </div>
@@ -44,7 +35,7 @@ const Blog1 = () => {
                     <div className='row py-5 align-items-center '>
 
                         <div className='col-md-6'>
-                            <img src='/assets/vectors/Vector1.png' alt ="image" className={styles.BlogvectorImg2} />
+                            <img src='/assets/vectors/Vector1.png' alt="image" className={styles.BlogvectorImg2} />
 
                             <p>Teaching our children the value of making eco-friendly decisions
                                 in their everyday lives can be difficult in a culture that promotes
@@ -60,7 +51,7 @@ const Blog1 = () => {
 
                         <div className='col-md-6 position-relative'>
 
-                            <img src='/assets/blog1.png' alt ="image"  className={styles.BlogCnt1Img} />
+                            <img src='/assets/blog1.png' alt="image" className={styles.BlogCnt1Img} />
 
                         </div>
 
@@ -132,7 +123,7 @@ const Blog1 = () => {
                                     result.
                                 </p>
 
-                                <img src='/assets/vectors/Vector2.png'  alt ="image" className={styles.BlogvectorImg3} />
+                                <img src='/assets/vectors/Vector2.png' alt="image" className={styles.BlogvectorImg3} />
 
                             </div>
 

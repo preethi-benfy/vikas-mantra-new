@@ -1,24 +1,18 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse } from '@fortawesome/free-solid-svg-icons'
+import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 import styles from './style.module.css'
 
 const Security = () => {
+
+    const pageTitle = 'Campus'
+
     return (
         <>
-            <section className='pt-5 VectorLogo'>
+
+            <Breadcrumb pageName={pageTitle} />
+
+            <section className='pt-4'>
 
                 <div className='container position-relative'>
-
-                    <div className='row'>
-
-                        <div className='col-md-12'>
-                            <FontAwesomeIcon icon={faHouse} className={styles.homeIcon} />
-                            |
-                            <a className='mx-2'>Campus</a>
-                        </div>
-
-
-                    </div>
 
                     <div className='row py-5'>
 
@@ -38,7 +32,7 @@ const Security = () => {
 
                         <div className='col-md-5 position-relative'>
 
-                        <img src='/assets/vectors/Vector10.png' alt ="image" className={styles.vectorImg10} />
+                            <img src='/assets/vectors/Vector10.png' alt="image" className={styles.vectorImg10} />
 
                             <h3>Security at VIKAS MANTRA
                                 PUBLIC SCHOOL</h3>
@@ -59,9 +53,9 @@ const Security = () => {
 
                         <div className='col-md-7 position-relative'>
 
-                            <img src='/assets/campus/security.png' alt ="image" className={styles.securityImg} />
+                            <img src='/assets/campus/security.png' alt="image" className={styles.securityImg} />
 
-                            <img src='/assets/vectors/Vector11.png' alt ="image" className={styles.vectorImg11} />
+                            <img src='/assets/vectors/Vector11.png' alt="image" className={styles.vectorImg11} />
 
                         </div>
 

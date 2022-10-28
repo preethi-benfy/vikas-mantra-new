@@ -3,8 +3,7 @@ import { useRouter } from 'next/router'
 import Button from 'react-bootstrap/Button'
 import styles from './style.module.css'
 import Link from 'next/link'
-import MobileNav from './MobileNav'
-
+import MobileNav from '../Header/MobileNav'
 
 const Nav = () => {
   const { asPath } = useRouter()
