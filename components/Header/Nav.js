@@ -15,13 +15,16 @@ const Nav = () => {
       <header className={styles.homeheader + ' ' + pageName}>
         <nav className={styles.navTransparent + ' navbar-expand-lg navbar'}>
           <div className='container'>
-            <a className={styles.mainLogo + ' ' + 'navbar-brand'} href='/'>
+            
+          <Link href='/' legacyBehavior>
+            <a className={styles.mainLogo + ' ' + 'navbar-brand'} >
               {pageName === 'home' ? (
                 <img src='/assets/vmps-white-logo.png' alt='image' />
               ) : (
                 <img src='/assets/vmps-color.png' alt='image' />
               )}
             </a>
+            </Link>
 
             <button
               className='navbar-toggler'
