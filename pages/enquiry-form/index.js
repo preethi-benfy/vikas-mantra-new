@@ -38,7 +38,7 @@ export default function index() {
       <section className='VectorDot'>
         <div className='container'>
 
-          <div className='row '>
+          <div className='row'>
             <div className={'col-md-10 col-xs-12 col-sm-12' + ' ' + styles.formCenter}>
               <div className={styles.enquiryForm}>
                 <div className={'row' + ' ' + styles.form}>
