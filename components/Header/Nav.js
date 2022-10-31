@@ -33,7 +33,7 @@ const Nav = () => {
                 )}
               </a>
             </Link>
-            <ul className='d-none navbar-nav ms-auto mb-2 mb-lg-0'>
+            <ul className='m-hide navbar-nav ms-auto mb-2 mb-lg-0'>
               <Button className={styles.firstbtn}>70924 50450</Button>
               <Button className={styles.secondtbtn}>Enroll</Button>
             </ul>

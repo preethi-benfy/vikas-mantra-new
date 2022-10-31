@@ -1,3 +1,6 @@
+
+
+
 /*
 .navbar-expand-lg .navbar-nav .nav-link{margin-right: 18px;}
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -469,6 +472,8 @@ p {
 }
 
 
+#hamburger{display: none;}
+
 @media only screen and (max-width: 660px) {
 
   .m-pb40 {
@@ -524,6 +529,9 @@ p {
 
 
 @media only screen and (max-width: 660px) {
+
+  #hamburger{display: block;}
+
   .m-pb40 {
     padding-bottom: 40px;
   }
@@ -590,10 +598,14 @@ p {
 .mob-menu .nav {
   position: relative;
   width: 100%;
-  background-color: black;
+  background-color: #452C2C;
   height: 100%;
   overflow: hidden;
   display: flow-root;
+}
+
+.mob-menu .nav__item:not(:last-child) {
+  border-bottom: solid 1px #fff;
 }
 
 .mob-menu .nav__item + .mob-menu .nav__item {
@@ -601,9 +613,14 @@ p {
 }
 
 .mob-menu .nav__link {
-  font-weight: 500;
-  color: white;
-  text-decoration: none;
+  color: white !important;
+    text-decoration: none;
+    display: block;
+    padding: 0.875em 1em;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 300;
 }
 
 .mob-menu .nav__sub {
@@ -612,7 +629,7 @@ p {
   right: 0;
   width: 100%;
   height: 100%;
-  background-color: currentColor;
+  background-color: #452C2C;
   opacity: 0;
   visibility: hidden;
   transition: all 0.35s ease-in-out;
@@ -662,7 +679,7 @@ p {
 }
 
 #hamburger.is-active .line{
-  width: 35px;
+  width: 23px;
 }
 
 #hamburger.is-active .line:nth-child(2){
@@ -680,13 +697,15 @@ p {
   -webkit-transform: translateY(-13px) rotate(90deg);
   -ms-transform: translateY(-13px) rotate(90deg);
   -o-transform: translateY(-13px) rotate(90deg);
-  transform: translateY(-13px) rotate(90deg);
+  transform: translateY(-8px) rotate(86deg);
 }
 
+.home .hamburger .line{background-color: #fff;}
+
 .hamburger .line{
-  width: 50px;
-  height: 5px;
-  background-color: #ecf0f1;
+  width: 35px;
+  height: 2px;
+  background-color: #842029;
   display: block;
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
@@ -698,9 +717,19 @@ p {
   cursor: pointer;
 }
 
+@font-face {
+  font-family: cedarvilleregular;
+  src: url(/assets/font/cedarvilleregular.ttf);
+}
 
+.cursiveFont{
 
-
+  font-family: cedarvilleregular;
+  background: linear-gradient(90deg, #FD6071 -2.23%, #FD5789 25.78%, #FE48A3 48.54%, #FE28DF 68.38%, #D200FE 87.06%, #7800FE 109.82%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding: 10px 0;
+}
 
 
 
@@ -712,6 +741,8 @@ p {
 
 
 @media only screen and (max-width: 660px) {
+
+  .m-hide{display: none;}
   .m-pb40 {
     padding-bottom: 40px;
   }

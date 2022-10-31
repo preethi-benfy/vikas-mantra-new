@@ -187,7 +187,7 @@ function Home() {
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-xl-3 col-sm-6 col-md-5'>
-              <h2>
+              <h2 className='cursiveFont'>
                 Life at VMPS
                 <br /> Our Happy Faces
               </h2>
