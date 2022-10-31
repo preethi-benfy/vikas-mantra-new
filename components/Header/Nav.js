@@ -24,14 +24,15 @@ const Nav = () => {
       <header className={styles.homeheader + ' ' + pageName}>
         <nav className={styles.navTransparent + ' navbar-expand-lg navbar'}>
           <div className='container'>
-            <Link href='/' legacyBehavior>
-              <a className={styles.mainLogo + ' ' + 'navbar-brand'}>
-                {pageName === 'home' ? (
-                  <img src='/assets/vmps-white-logo.png' alt='image' />
-                ) : (
-                  <img src='/assets/vmps-color.png' alt='image' />
-                )}
-              </a>
+            
+          <Link href='/home' legacyBehavior>
+            <a className={styles.mainLogo + ' ' + 'navbar-brand'} >
+              {pageName === 'home' ? (
+                <img src='/assets/vmps-white-logo.png' alt='image' />
+              ) : (
+                <img src='/assets/vmps-color.png' alt='image' />
+              )}
+            </a>
             </Link>
             <ul className='m-hide navbar-nav ms-auto mb-2 mb-lg-0'>
               <Button className={styles.firstbtn}>70924 50450</Button>

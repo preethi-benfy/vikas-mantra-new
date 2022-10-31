@@ -11,11 +11,11 @@ const Contact = () => {
 
             <Breadcrumb pageName={pageTitle} />
 
-            <section className='pt-5'>
+            <section className='pt-5 '>
 
                 <div className='container position-relative'>
 
-                    <div className='row py-5'>
+                    <div className='row py-5 spiral-vector-before orange-spiral'>
 
                         <h2 className={styles.headingPdng}>Contact</h2>
 
@@ -53,7 +53,7 @@ const Contact = () => {
 
                             <div className='position-relative'>
 
-                                <img src='/assets/vectors/vector13.png' alt="image" className={styles.vectorImg13} />
+                                {/* <img src='/assets/vectors/vector13.png' alt="image" className={styles.vectorImg13} /> */}
 
                                 <img src='/assets/icons/mail.png' alt="image" className={styles.iconsImg} />
 
