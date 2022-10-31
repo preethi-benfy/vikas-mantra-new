@@ -10,7 +10,7 @@ function Home() {
 
   useEffect(()=>{
 
-    gsap.from (".container h1", {y: 500, duration: 1, ease: power4.out});
+    // gsap.from (".container h1", {y: 500, duration: 1, ease: power4.out});
 
   },[])
 
