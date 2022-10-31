@@ -223,6 +223,76 @@
     background-color: #fff;
 }
 
+.Tab1BlueVector::before {
+    left: -120px;
+    bottom: -50px;
+}
+
+.tab1RedDotVector::after {
+    right: 0px;
+    bottom: -250px;
+}
+
+.tab2RedDotVector::before {
+    bottom: -430px;
+    left: 0;
+}
+
+.Tab2GreenVector::after {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/vectors/Vector9.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    z-index: 0;
+    background-size: 110px;
+    height: 227px;
+    width: 247px;
+    right: 0px;
+    bottom: -131%;
+}
+
+.tab3VectorSpiralBlue ::before {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/vectors/Vector5.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    z-index: 1;
+    background-size: 110px;
+    height: 210px;
+    width: 190px;
+    bottom: -44px;
+    right: -90px;
+}
+
+.tab3RedDotVector::after {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/vectors/Vector10.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    z-index: 0;
+    background-size: 110px;
+    height: 227px;
+    width: 247px;
+    bottom: 0px;
+    left: -100px;
+}
+
+.tab3VectorStarGreen::after {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/vectors/green-vector.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    z-index: 0;
+    background-size: 110px;
+    height: 227px;
+    width: 247px;
+    bottom: 0;
+    right: 0;
+}
 
 @media only screen and (max-width: 600px) {
     .vectorImg1 {

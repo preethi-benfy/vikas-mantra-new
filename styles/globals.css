@@ -184,6 +184,9 @@ p {
 .top-0:before {
   top: 0;
 }
+.right-0::before{
+  right: 0;
+}
 
 .VectorDot::before {
   content: '';
@@ -227,9 +230,119 @@ p {
   right: 0;
   width: 190px;
   bottom: 50px;
+}
+
+.VectorStarGreen::after{
+
+  content: '';
+  position: absolute;
+  background-image: url(/assets/vectors/Vector9.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index: 0;
+  background-size: 110px;
+  height: 227px;
+  width: 247px;
 
 }
 
+/*svg-section-starts*/
+.dot-vector-after::after{
+
+  content: '';
+  position: absolute;
+  background-image: url(/assets/vectors/dot-vector.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index: 0;
+  background-size: 110px;
+  height: 227px;
+  width: 247px;
+
+}
+.dot-vector-before::before{
+
+  content: '';
+  position: absolute;
+  background-image: url(/assets/vectors/dot-vector.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index: 1;
+  background-size: 110px;
+  height: 227px;
+  width: 247px;
+  
+}
+.red-dot::before ,.red-dot::after{
+  color: #ffd5cc;
+}
+.blue-dot::before,.blue-dot::after{
+  color: #cce3ff;
+}
+.spiral-vector-before::before{
+  content: '';
+  position: absolute;
+  background-image: url(/assets/vectors/spiral-vector.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  z-index: 1;
+  background-size: 110px;
+  height: 210px;
+  width: 190px;
+}
+.spiral-vector-after::after{
+  content: '';
+  position: absolute;
+  background-image: url(/assets/vectors/spiral-vector.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  z-index: 1;
+  background-size: 110px;
+  height: 210px;
+  width: 190px;
+}
+.blue-spiral::after,.blue-spiral::before{
+  color: #9aedff;
+}
+.white-spiral::after, .white-spiral::before{
+  color: #e7ffe7;
+}
+.orange-spiral::after ,.orange-spiral::before{
+  color: #fff5e7;
+}
+
+.star-vector-before::before{
+  content: '';
+  position: absolute;
+  background-image: url(/assets/vectors/star-vector.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index: 0;
+  background-size: 110px;
+  height: 227px;
+  width: 247px;
+}
+.star-vector-after::after{
+  content: '';
+  position: absolute;
+  background-image: url(/assets/vectors/star-vector.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index: 0;
+  background-size: 110px;
+  height: 227px;
+  width: 247px;
+}
+.green-star::after, .green-star::before{
+  color: #b5fbbc;
+}
+.blue-star::after ,.blue-star::before{
+  color: #b5d9fb;
+}
+.orange-star::after ,.orange-star::before{
+  color: #fbe7b5;
+}
+/*svg-section-ends*/
 
 
 

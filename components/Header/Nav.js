@@ -16,7 +16,7 @@ const Nav = () => {
         <nav className={styles.navTransparent + ' navbar-expand-lg navbar'}>
           <div className='container'>
             
-          <Link href='/' legacyBehavior>
+          <Link href='/home' legacyBehavior>
             <a className={styles.mainLogo + ' ' + 'navbar-brand'} >
               {pageName === 'home' ? (
                 <img src='/assets/vmps-white-logo.png' alt='image' />

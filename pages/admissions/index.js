@@ -7,7 +7,7 @@ import Breadcrumb from '../../components/Breadcrumb/Breadcrumb'
 
 const Admissions = () => {
 
-    const pageTitle ='Admissions'
+    const pageTitle = 'Admissions'
 
     return (
 
@@ -80,9 +80,10 @@ const Admissions = () => {
 
                     </div>
 
-                    <div className="tab-content" id="v-pills-tabContent">
+                    <div className={"tab-content " + styles.tab3VectorStarGreen} id="v-pills-tabContent">
 
-                        <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"
+                        <div className={" tab-pane fade show active VectorSpiralBlue dot-vector-after " + styles.Tab1BlueVector + ' ' + styles.tab1RedDotVector}
+                            id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"
                             tabindex="0">
 
                             <div className='row'>
@@ -94,12 +95,12 @@ const Admissions = () => {
                                 </div>
 
 
-                                <div className={styles.cardmargin1 + ' col-md-8 offset-md-2 position-relative'}>
+                                <div className={styles.cardmargin1 + ' ' + ' col-md-8 offset-md-2 position-relative '}>
 
                                     <div className={styles.card1 + " card"}>
 
                                         <div className="card-body">
-                                            <img src='/assets/vectors/Vector5.png' alt="image" className={styles.Sec1vectorImg5} />
+
                                             <h5 className="card-title">Admission</h5>
                                             <hr className={styles.hrLine} />
                                             <h6 className="card-text">
@@ -115,7 +116,7 @@ const Admissions = () => {
                                                 <li className='pt-1'>To find out more about admissions at VIKAS MANTRA PUBLIC SCHOOL or to visit the school for an admissions tour</li>
                                                 <li className='pt-1'>Please contact the Admission Coordinator between 8.30 am and 4.30 pm., Mon-Sat  |  9.00 am – 1.00 pm on Saturdays (Except 2nd Sat)</li>
                                             </ul>
-                                            <img src='/assets/vectors/Vector10.png' alt="image" className={styles.Sec1vectorImg10} />
+
                                         </div>
 
                                     </div>
@@ -127,10 +128,10 @@ const Admissions = () => {
                         </div>
 
 
-                        <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
-                            tabindex="0">
+                        <div className=" tab-pane fade " id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"
+                            tabindex="0" >
 
-                            <div className='row'>
+                            <div className={'row ' + ' ' + styles.Tab2GreenVector}>
 
                                 <div className={styles.Sec2PdngBtm + ' col-md-8 offset-md-4'}>
 
@@ -142,15 +143,14 @@ const Admissions = () => {
                                     <div></div>
                                 </div>
 
-                                <div className={styles.order3 + ' col-md-6 py-5'}>
+                                <div className={styles.order3 + ' col-md-6 py-5 dot-vector-before' + ' ' + styles.tab2RedDotVector}>
 
                                     <img src='/assets/banners/student.png' alt="image" className={styles.studentImg} />
 
                                 </div>
 
-                                <div className={styles.order2 + ' col-md-5 py-5 position-relative'}>
+                                <div className={styles.order2 + ' col-md-5 py-5 position-relative '}>
 
-                                    <img src='/assets/vectors/Vector3.png' alt="image" className={styles.Sec2vectorImg3} />
                                     <img src='/assets/VMPS.png' alt="image" className={styles.Sec2vmpsImg} />
 
                                     <h2>Timelines and key milestones
@@ -201,8 +201,6 @@ const Admissions = () => {
                                         closed on 30th June 2022.
                                     </p>
 
-                                    <img src='/assets/vectors/Vector9.png' alt="image" className={styles.Sec2vectorImg6} />
-
                                 </div>
 
                             </div>
@@ -213,7 +211,7 @@ const Admissions = () => {
                         <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"
                             tabindex="0">
 
-                            <div className='row'>
+                            <div className={'row '}>
 
                                 <div className='col-md-8 offset-md-4'>
 
@@ -221,7 +219,7 @@ const Admissions = () => {
 
                                 </div>
 
-                                <div className={styles.cardmargin3 + ' col-md-8 offset-md-2'}>
+                                <div className={styles.cardmargin3 + ' col-md-8 offset-md-2 ' + ' ' + styles.tab3VectorSpiralBlue}>
 
                                     <div className={styles.card1 + " card"}>
 
@@ -237,15 +235,13 @@ const Admissions = () => {
                                                 <li className='pt-1'>For Senior KG the child must have completed 4.5  years as on 30th June.</li>
                                             </ul>
 
-                                            <img src='/assets/vectors/Vector5.png' alt="image" className={styles.Sec3vectorImg5} />
-
                                         </div>
 
                                     </div>
 
                                 </div>
 
-                                <div className='col-md-6 mt-5'>
+                                <div className='col-md-6 mt-5 '>
 
                                     <h2>Admissions Procedure</h2>
                                     <hr className={styles.hrLine} />
@@ -307,7 +303,7 @@ const Admissions = () => {
 
                                 </div>
 
-                                <div className={styles.colpdngRt + ' col-md-6 position-relative'}>
+                                <div className={styles.colpdngRt + ' col-md-6 position-relative' + ' ' + styles.tab3RedDotVector}>
 
                                     <div className='d-flex align-items-start text-justify'>
 
@@ -328,8 +324,6 @@ const Admissions = () => {
 
                                         </div>
                                     </div>
-
-                                    <img src='/assets/vectors/Vector3.png' alt="image" className={styles.Sec3vectorImg3} />
 
                                 </div>
 
@@ -396,7 +390,7 @@ const Admissions = () => {
 
                                 </div>
 
-                                <div className='col-md-10'>
+                                <div className={'col-md-10 '}>
 
                                     <h2 className='mt-5 mb-3'>Admissions Requirements</h2>
 
@@ -427,6 +421,7 @@ const Admissions = () => {
                                     <h2 className='mt-5'>Procedures to be followed while filling up the form</h2>
 
                                     <ul className={styles.ulLineHeight + ' position-relative'}>
+
                                         <li>Application form to be submitted within 5  working days after buying the form.
                                             Duly filled in forms are to be submitted along with copy of birth certificate,
                                             address proof, copy of Aadhar, UDIS number ( for students from grade 2 onwards)
@@ -441,8 +436,6 @@ const Admissions = () => {
                                         </li>
 
                                         <li>Each class is limited to 35 students only.</li>
-
-                                        <img src='/assets/vectors/Vector6.png' alt="image" className={styles.Sec3vectorImg6} />
 
                                     </ul>
 
