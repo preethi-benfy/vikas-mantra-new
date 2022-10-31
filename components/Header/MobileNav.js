@@ -36,7 +36,7 @@ const MobileNav = () => {
 
   return (
     <>
-      <div className='mob-menu'>
+      <div id='mobMenu' className='mob-menu mob-menu-hdden'>
         <ul className='nav'>
           <li className='nav__item'>
             <Link href='/home' legacyBehavior>
