@@ -15,9 +15,11 @@ const Contact = () => {
 
                 <div className='container position-relative'>
 
-                    <div className='row py-5 spiral-vector-before orange-spiral'>
+                    <div className='row py-5 dot-vector-before red-dot'>
 
                         <h2 className={styles.headingPdng}>Contact</h2>
+
+                
 
                     </div>
 

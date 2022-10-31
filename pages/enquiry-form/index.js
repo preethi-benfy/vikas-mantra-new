@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form'
 import Breadcrumb from '../../components/Breadcrumb/Breadcrumb'
 
 export default function index() {
-  
+
   const pageTitle = 'Enquiry Form';
   return (
     <>
@@ -46,123 +46,109 @@ export default function index() {
                     <h5 className='mb-5'>Child Information</h5>
 
                     <Form>
-                      <div className='mb-5'>
-                        <label>Name of the Child</label>
 
+                      <Form.Group className='mb-5' controlId="formBasicEmail">
+                        <Form.Label Name of the Child />
                         <Form.Control className={styles.formText} type='text' />
-                      </div>
+                      </Form.Group>
 
-                      <div className='mb-5'>
-                        <label>Student Date of Birth</label>
-
+                      <Form.Group className='mb-5'>
+                        <Form.Label>Student Date of Birth</Form.Label>
                         <Form.Control className={styles.formText} type='text' />
-                      </div>
+                      </Form.Group>
 
-                      <div className='mb-5'>
-                        <label>Last Class Studied</label>
-
+                      <Form.Group className='mb-5'>
+                        <Form.Label>Last Class Studied</Form.Label>
                         <Form.Control className={styles.formText} type='text' />
-                      </div>
+                      </Form.Group>
 
-                      <div className='mb-5'>
-                        <label>Name of the Current school</label>
-
+                      <Form.Group className='mb-5'>
+                        <Form.Label>Name of the Current school</Form.Label>
                         <Form.Control className={styles.formText} type='text' />
-                      </div>
+                      </Form.Group>
 
-                      <div className='mb-5'>
-                        <label>Admission seeking for</label>
-
+                      <Form.Group className='mb-5'>
+                        <Form.Label>Admission seeking for</Form.Label>
                         <Form.Control className={styles.formText} type='text' />
-                      </div>
+                      </Form.Group>
+
                     </Form>
                   </div>
 
                   <div className='col-md-5 offset-md-1'>
+
                     <div className={styles.formPb}>
+
                       <h5 className='mb-5'>Parent Information : Father</h5>
 
                       <Form>
-                        <div className='mb-5'>
-                          <label>Name</label>
 
-                          <Form.Control
-                            className={styles.formText}
-                            type='text'
-                          />
-                        </div>
+                        <Form.Group className='mb-5'>
+                          <Form.Label>Name</Form.Label>
+                          <Form.Control className={styles.formText} type='text' />
+                        </Form.Group>
 
                         <div className='mb-5'>
                           <div className='row'>
-                            <div className='col-md-6 mb-5'>
-                              <label>Phone Number</label>
 
-                              <Form.Control
-                                className={styles.formText}
-                                type='text'
-                              />
-                            </div>
+                            <Form.Group className='col-md-6 mb-5'>
+                              <Form.Label>Phone Number</Form.Label>
+                              <Form.Control className={styles.formText} type='text' />
+                            </Form.Group>
 
-                            <div className='col-md-6 mb-5'>
-                              <label>Email</label>
+                            <Form.Group className='col-md-6 mb-5'>
+                              <Form.Label>Email</Form.Label>
+                              <Form.Control className={styles.formText} type='text' />
+                            </Form.Group>
 
-                              <Form.Control
-                                className={styles.formText}
-                                type='text'
-                              />
-                            </div>
                           </div>
+
                         </div>
+
                       </Form>
+
                     </div>
 
                     <div>
+
                       <h5 className='mb-5'>Parent Information : Mother</h5>
 
                       <Form>
-                        <div className='mb-5'>
-                          <label>Name</label>
 
-                          <Form.Control
-                            className={styles.formText}
-                            type='text'
-                          />
-                        </div>
+                        <Form.Group className='mb-5'>
+                          <Form.Label>Name</Form.Label>
+                          <Form.Control className={styles.formText} type='text' />
+                        </Form.Group>
 
                         <div className='mb-5'>
                           <div className='row'>
-                            <div className='col-md-6 mb-5'>
-                              <label>Phone Number</label>
 
-                              <Form.Control
-                                className={styles.formText}
-                                type='text'
-                              />
-                            </div>
+                            <Form.Group className='col-md-6 mb-5'>
+                              <Form.Label>Phone Number</Form.Label>
+                              <Form.Control className={styles.formText} type='text' />
+                            </Form.Group>
 
-                            <div className='col-md-6 mb-5'>
-                              <label>Email</label>
+                            <Form.Group className='col-md-6 mb-5'>
+                              <Form.Label>Email</Form.Label>
+                              <Form.Control className={styles.formText} type='text' />
+                            </Form.Group>
 
-                              <Form.Control
-                                className={styles.formText}
-                                type='text'
-                              />
-                            </div>
                           </div>
+
                         </div>
+
                       </Form>
+
                     </div>
+
                   </div>
 
                   <div className='col-md-11'>
                     <Form>
-                      <div className='mb-5'>
-                        <label className='mb-5'>
-                          Admission of Communication
-                        </label>
-
+                      <Form.Group className='mb-5'>
+                        <Form.Label className='mb-5'> Admission of Communication </Form.Label>
                         <Form.Control className={styles.formText} type='text' />
-                      </div>
+                      </Form.Group>
                     </Form>
 
                     <a href='#'>
