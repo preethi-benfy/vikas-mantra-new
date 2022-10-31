@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import styles from './style.module.css'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
@@ -6,8 +6,14 @@ import '@splidejs/react-splide/css'
 import { gsap } from 'gsap'
 
 function Home() {
+  const title = useRef()
+
   useEffect(() => {
-    // gsap.from (".container h1", {y: 500, duration: 1, ease: power4.out});
+    let ctx = gsap.context(() => {
+      gsap.to('.box', { rotation: '+=360' })
+    }, title)
+
+    return () => ctx.revert()
   }, [])
 
   return (
@@ -16,11 +22,12 @@ function Home() {
         <div className='container'>
           <div className='row'>
             <div
+              ref={title}
               className={
                 styles.bannercontent + ' ' + 'col-lg-6 col-md-12 col-sm-12'
               }
             >
-              <h1>
+              <h1 className='box'>
                 To educate young minds to be lifelong learners in this dynamic
                 world
               </h1>
