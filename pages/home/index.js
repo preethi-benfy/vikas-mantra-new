@@ -1,17 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import styles from './style.module.css'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css'
+import { gsap } from "gsap";
 
 
 function Home() {
+
+  useEffect(()=>{
+
+    gsap.from (".container h1", {y: 500, duration: 1, ease: power4.out});
+
+  },[])
+
+
+  
+
   return (
     <>
       <section className={styles.bannerSection}>
         <div className='container'>
           <div className='row'>
-            <div className={styles.bannercontent + ' ' + 'col-md-6'}>
+            <div className={styles.bannercontent + ' ' + 'col-lg-6 col-md-12 col-sm-12'}>
               <h1>
                 To educate young minds to be lifelong learners in this dynamic
                 world
