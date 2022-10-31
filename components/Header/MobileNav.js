@@ -24,16 +24,6 @@ const MobileNav = () => {
     })
   }
 
-  function subClose(e) {
-    console.log('ii')
-  }
-  useEffect(() => {
-    // $('.sub__close').click(function (e) {
-    //   e.preventDefault()
-    //   $(this).parent().parent().removeClass('is-active')
-    // })
-  })
-
   return (
     <>
       <div id='mobMenu' className='mob-menu mob-menu-hdden'>

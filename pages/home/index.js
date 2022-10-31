@@ -3,26 +3,23 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import styles from './style.module.css'
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css'
-import { gsap } from "gsap";
-
+import { gsap } from 'gsap'
 
 function Home() {
-
-  useEffect(()=>{
-
+  useEffect(() => {
     // gsap.from (".container h1", {y: 500, duration: 1, ease: power4.out});
-
-  },[])
-
-
-  
+  }, [])
 
   return (
     <>
       <section className={styles.bannerSection}>
         <div className='container'>
           <div className='row'>
-            <div className={styles.bannercontent + ' ' + 'col-lg-6 col-md-12 col-sm-12'}>
+            <div
+              className={
+                styles.bannercontent + ' ' + 'col-lg-6 col-md-12 col-sm-12'
+              }
+            >
               <h1>
                 To educate young minds to be lifelong learners in this dynamic
                 world
@@ -68,13 +65,11 @@ function Home() {
             </div>
 
             <div className='col-md-6'>
-              
-                <img
-                  src='/assets/home-abt-vmps.png'
-                  alt='image'
-                  className='img-fluid'
-                />
-              
+              <img
+                src='/assets/home-abt-vmps.png'
+                alt='image'
+                className='img-fluid'
+              />
             </div>
           </div>
         </div>
@@ -96,14 +91,12 @@ function Home() {
 
           <div className={'row' + ' ' + 'pt60' + ' ' + styles.vkApproch}>
             <div className={'z1' + ' ' + 'col-md-3'}>
-              
-                <img
-                  width='81'
-                  height='74'
-                  src='/assets/icons/holistic-approach.png'
-                  alt='image'
-                ></img>
-             
+              <img
+                width='81'
+                height='74'
+                src='/assets/icons/holistic-approach.png'
+                alt='image'
+              ></img>
 
               <h4>Holistic Approach</h4>
 
@@ -114,14 +107,12 @@ function Home() {
             </div>
 
             <div className={'z1' + ' ' + 'col-md-3'}>
-              
-                <img
-                  width='81'
-                  height='74'
-                  src='/assets/icons/holistic-approach.png'
-                  alt='image'
-                ></img>
-              
+              <img
+                width='81'
+                height='74'
+                src='/assets/icons/holistic-approach.png'
+                alt='image'
+              ></img>
 
               <div className={styles.borderLeft}>
                 <h4>Global Outlook</h4>
@@ -135,14 +126,12 @@ function Home() {
             </div>
 
             <div className={'z1' + ' ' + 'col-md-3'}>
-              
-                <img
-                  width='81'
-                  height='74'
-                  src='/assets/icons/holistic-approach.png'
-                  alt='image'
-                ></img>
-         
+              <img
+                width='81'
+                height='74'
+                src='/assets/icons/holistic-approach.png'
+                alt='image'
+              ></img>
 
               <div className={styles.borderLeft}>
                 <h4>Talented Faculty</h4>
@@ -156,14 +145,12 @@ function Home() {
             </div>
 
             <div className={'z1' + ' ' + 'col-md-3'}>
-              
-                <img
-                  width='81'
-                  height='74'
-                  src='/assets/icons/holistic-approach.png'
-                  alt='image'
-                ></img>
-              
+              <img
+                width='81'
+                height='74'
+                src='/assets/icons/holistic-approach.png'
+                alt='image'
+              ></img>
 
               <div className={styles.borderLeft}>
                 <h4>Rich Curriculum</h4>
@@ -226,13 +213,11 @@ function Home() {
                         styles.vslideimage + ' ' + 'col-md-6 offset-md-2'
                       }
                     >
-                  
-                        <img
-                          src='/assets/home-happy-face.png'
-                          alt='image'
-                          className='img-fluid'
-                        ></img>
-                 
+                      <img
+                        src='/assets/home-happy-face.png'
+                        alt='image'
+                        className='img-fluid'
+                      ></img>
                     </div>
                   </div>
                 </SplideSlide>
@@ -272,9 +257,7 @@ function Home() {
                 <SplideSlide>
                   <div className={styles.testimonialcard}>
                     <div>
-                   
-                        <img src='/assets/rectangle.png' alt='image' />
-                      
+                      <img src='/assets/rectangle.png' alt='image' />
                     </div>
 
                     <div className={styles.testimonialcontent}>
@@ -295,9 +278,7 @@ function Home() {
                 <SplideSlide>
                   <div className={styles.testimonialcard}>
                     <div>
-                    
-                        <img src='/assets/rectangle.png' alt='image' />
-                      
+                      <img src='/assets/rectangle.png' alt='image' />
                     </div>
 
                     <div className={styles.testimonialcontent}>
