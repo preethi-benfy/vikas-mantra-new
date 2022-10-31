@@ -8,7 +8,7 @@
 .secondtbtn{background: linear-gradient(85.31deg, #A11D2A -39.85%, #E02D53 44.76%, #F27D49 117.87%);border-radius: 1px;color: #FFFFFF;border: unset;padding: 5px 18px;
     font-size: 14px;}
 
-.homeheader{z-index: 1;}
+.homeheader{z-index: 2;}
 
 .navTransparent{z-index: 9999;}
 
